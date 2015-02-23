@@ -88,7 +88,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     #dev production only, would need to be changed for live production
-    '/home/vagrant/blog/acillary/static/',
+    '/home/vagrant/blog/ancillary/static/',
 )
 
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]

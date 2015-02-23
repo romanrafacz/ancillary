@@ -1,0 +1,5414 @@
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+h1
+{
+   font-family: Arial;
+   font-size: 32px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #008266;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   font: bold 16px Arial, Helvetica, sans-serif;
+}
+h2
+{
+   font-family: Arial;
+   font-size: 27px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #008266;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   font: bold 20px Arial, Helvetica, sans-serif;
+}
+h3
+{
+   font-family: Arial;
+   font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4
+{
+   font-family: Arial;
+   font-size: 21px;
+   font-weight: normal;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5
+{
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6
+{
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #000080;
+   background-color: transparent;
+}
+.activelink
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+   outline: none;
+}
+.a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #4A98CA;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+}
+.green-wrapper
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 690px;
+   height: 199px;
+}
+.greenbox-l
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/gr-bg-l.png);
+   width: 20px;
+   float: left;
+   height: 199px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.greenbox-r
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/gr-bg-r.png);
+   width: 20px;
+   float: left;
+   height: 199px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.greenbox
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   background-image: url(images/gr-bg.png);
+   width: 650px;
+   float: left;
+   height: 199px;
+   background-position: 0 0;
+   background-repeat: repeat-x;
+   background-attachment: scroll;
+}
+.greenbox .green-top h2
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   margin-top: 20px;
+}
+.greenbox h2
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+}
+.green-section-l
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 190px;
+   float: left;
+}
+.green-section-m
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 190px;
+   float: left;
+}
+.green-section-r
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 190px;
+   float: left;
+}
+.green-section-w
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   width: 2px;
+   float: left;
+   height: 107px;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+.whitesm-wrapper
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 690px;
+   height: 180px;
+}
+.whitesmbox-l
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/wht-bg-l-small.png);
+   width: 20px;
+   float: left;
+   height: 180px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.whitesmbox-r
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/wht-bg-r-small.png);
+   width: 20px;
+   float: left;
+   height: 180px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.whitesmbox
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/wht-bg-small.png);
+   width: 650px;
+   float: left;
+   height: 180px;
+   background-position: 0 0;
+   background-repeat: repeat-x;
+   background-attachment: scroll;
+}
+.whitesm-section-l
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 190px;
+   float: left;
+}
+.whitesm-section-m
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 190px;
+   float: left;
+}
+.whitesm-section-r
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 190px;
+   float: left;
+}
+.whitesm-section-w
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #CCCCCC;
+   width: 2px;
+   float: left;
+   height: 107px;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+.whitesm-top h2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-top: 20px;
+}
+.whitesm-section-l h2
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+}
+.whitesm-section-m h2
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+}
+.whitesm-section-r h2
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+}
+.gallery-wrapper
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 3px;
+}
+.gallery-top
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/headliner-gallery.jpg);
+   padding: bottom:15px bottom:15px bottom:15px bottom:15px;
+   height: 70px;
+   background-repeat: no-repeat;
+}
+.gallery-btm
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   height: 16px;
+}
+.grysm-wrapper
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100%;
+   clear: both;
+   height: 199px;
+}
+.grysmbox-l
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 20px;
+   float: left;
+   height: 199px;
+}
+.grysmbox-r
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/gr-bg-r-small.png);
+   width: 20px;
+   float: left;
+   height: 199px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.grysmbox
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/gr-bg-small.png);
+   width: 650px;
+   float: left;
+   height: 199px;
+   background-position: 0 0;
+   background-repeat: repeat-x;
+   background-attachment: scroll;
+}
+.slideshow
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   padding-top: 20px;
+}
+.product-gallery
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   overflow: hidden;
+   padding-left: 22px;
+   position: relative;
+   height: 106px;
+}
+.other-gallery
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   overflow: hidden;
+   padding-left: 22px;
+   position: relative;
+   height: 106px;
+}
+.product-gallery .link-prev
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 23px;
+   overflow: hidden;
+   position: relative;
+   float: left;
+   left: 11px;
+   height: 199px;
+   text-indent: -9999px;
+}
+.product-gallery .link-next
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 23px;
+   overflow: hidden;
+   position: relative;
+   float: left;
+   left: 11px;
+   height: 199px;
+   text-indent: -9999px;
+}
+.other-gallery .link-prev
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 23px;
+   overflow: hidden;
+   position: relative;
+   float: left;
+   left: 11px;
+   height: 199px;
+   text-indent: -9999px;
+}
+.other-gallery .link-next
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 23px;
+   overflow: hidden;
+   position: relative;
+   float: left;
+   left: 11px;
+   height: 199px;
+   text-indent: -9999px;
+}
+.product-gallery div
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 872px;
+   overflow: hidden;
+   position: relative;
+   float: left;
+   left: 4px;
+   height: 199px;
+}
+.other-gallery div
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 872px;
+   overflow: hidden;
+   position: relative;
+   float: left;
+   left: 4px;
+   height: 199px;
+}
+.product-gallery ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   width: 10000px;
+   list-style: none outside none;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+.other-gallery ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   width: 10000px;
+   list-style: none outside none;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+.product-gallery ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   width: 140px;
+   padding-left: 0px;
+   float: left;
+   clear: none !important;
+   padding-right: 0px;
+   background-position: 0 0 transparent;
+   background-repeat: repeat;
+   background-attachment: scroll;
+}
+.product-gallery ul a
+{
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   width: 110px;
+   height: 67px;
+   text-align: center;
+   line-height: 21px;
+   display: block;
+   -moz-border-radius: 8px 8px 8px 8px;
+}
+.link-prev
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/gallery-left-arrow.png);
+   height: 43px;
+   margin-top: 33px;
+   background-position: 0 0 transparent;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.link-next
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/gallery-right-arrow.png);
+   height: 43px;
+   margin-top: 33px;
+   background-position: 0 0 transparent;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.light-box2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 10px 10px 10px 10px;
+   width: 100%;
+   margin-left: -22px;
+}
+.product-gallery .slide-left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 20px;
+   overflow: hidden;
+   float: left;
+   height: 43px;
+   text-indent: -9999px;
+}
+.product-gallery .slide-right
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 20px;
+   overflow: hidden;
+   float: left;
+   height: 43px;
+   text-indent: -9999px;
+}
+.other-gallery .slide-left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 20px;
+   overflow: hidden;
+   float: left;
+   height: 43px;
+   text-indent: -9999px;
+}
+.other-gallery .side-right
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 20px;
+   overflow: hidden;
+   float: left;
+   height: 43px;
+   text-indent: -9999px;
+}
+.grysmbox ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   height: 100px;
+}
+.gallery-header-l
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-bottom: 10px;
+   padding-left: 46px;
+   float: left;
+}
+.gallery-header-r
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: right;
+   padding-top: 6px;
+   padding-right: 52px;
+}
+.sf-wrapper
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 700px;
+   height: 277px;
+}
+.cp-wrapper
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 690px;
+   height: 199px;
+}
+.whitebox-l
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/wh-bg-l.png);
+   width: 20px;
+   float: left;
+   height: 277px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.whitebox-m
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   background-image: url(images/wh-bg.png);
+   width: 655px;
+   padding-left: 3px;
+   float: left;
+   height: 277px;
+   background-position: 0 0;
+   background-repeat: repeat-x;
+   background-attachment: scroll;
+}
+.whitebox-r
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/wh-bg-r.png);
+   width: 20px;
+   float: left;
+   height: 277px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.whitebox-m h2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-top: 20px;
+}
+.sf-conf-left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/las-vegas-hp-lrg.png);
+   width: 140px;
+   float: left;
+   height: 173px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.sf-conf-right
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/conf-gry.png);
+   width: 190px;
+   float: left;
+   height: 173px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.cp-conf-left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/copenhagen-hp-lrg.png);
+   width: 140px;
+   float: left;
+   height: 173px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.cp-conf-right
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/conf-gry.png);
+   width: 180px;
+   float: left;
+   height: 173px;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.conf-content
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 12px;
+   padding-right: 0px;
+}
+.conf-content h2
+{
+   font-size: 17px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   margin-top: 13px !important;
+}
+.conf-content h3
+{
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+}
+.jive-body-layout-s .jive-widget
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+}
+.sponsorimage
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   text-align: center;
+}
+.sponsorimage img
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-top: 10px;
+}
+.tech-side-nav
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/bg-tech-side-nav-strip.gif);
+   margin: 0px 0px 0px 0px;
+   width: 224px;
+   overflow: hidden;
+   background-position: 0 0 transparent;
+   background-repeat: repeat-y;
+   background-attachment: scroll;
+}
+.tech-side-nav h3
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   background-image: url(images/bg-tech-side-heading.gif);
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   height: 36px;
+   line-height: 36px;
+   background-position: 0 0 transparent;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.tech-side-nav ul
+{
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/bg-tech-side-nav-bottom.gif);
+   margin: -1px -1px -1px -1px;
+   padding: 0px 0px 0px 0px;
+   overflow: hidden;
+   list-style: none outside none;
+   height: 1%;
+   background-position: 0 100% transparent;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.tech-side-nav ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   padding: 5px 5px 5px 5px;
+   border-top: 1px solid #CCCCCC;
+   padding-left: 10px !important;
+   padding-right: 10px !important;
+   line-height: 16px;
+   background-position: 0 0 transparent;
+   background-repeat: repeat;
+   background-attachment: scroll;
+}
+.div.tech-side-nav
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+}
+.body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #717074;
+   background-color: #717074;
+   background-image: url(images/gradient.png);
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+.a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: underline;
+   color: #4D4E53;
+   background-color: transparent;
+}
+.a.feed
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/icon-feed.gif);
+   padding-right: 22px;
+   background-position: top right;
+   background-repeat: no-repeat;
+}
+.a.more
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/arrow-links.gif);
+   padding-right: 10px;
+   background-position: 100% 4px;
+   background-repeat: no-repeat;
+}
+.a.button
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   overflow: hidden;
+   height: 29px;
+   text-indent: -9999px;
+   background-repeat: no-repeat;
+   display: block;
+}
+.a.b-register
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/button-register.gif);
+   width: 116px;
+}
+.a.b-logon2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/button-logon2.gif);
+   width: 193px;
+   height: 15px;
+}
+.form
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+.p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+.p.large
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-bottom: 16px;
+   padding-right: 30px;
+   font: 16px/22px Arial, Helvetica, sans-serif;
+}
+.img
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+}
+.img.icon
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-bottom: 10px;
+   margin-left: 6px;
+}
+.img.left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: left;
+}
+.* html img.left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: inline;
+}
+.ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+}
+.jive-blog-post ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 15px !important;
+   list-style: disc;
+}
+.ul.manage li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   line-height: 25px;
+}
+.#form-search fieldset
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/search.gif);
+   padding: 4px 4px 4px 4px;
+   width: 127px;
+   height: 16px;
+   background-position: 0 0 transparent;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.#form-search .text-input
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #999999;
+   background-color: transparent;
+   background-image: url(none);
+   border: 0px #FFFFFF none;
+   margin: 0px 0px 0px 0px;
+   width: 120px;
+   float: left;
+   background-position: 0 0 transparent;
+   background-repeat: repeat;
+   background-attachment: scroll;
+}
+.#form-search input
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000FFF;
+   border: 0px #FFFFFF none;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   width: 115px;
+}
+.#form-search .submit
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 14px;
+}
+.fieldset
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+.vm2010-hero
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.#promobox
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   margin-top: 6px !important;
+}
+.jive-widget-container-small
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   width: 286px;
+   overflow: hidden;
+}
+.jive-widget-header
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   width: 286px;
+   overflow: hidden;
+}
+.div.empty
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100%;
+   overflow: hidden;
+   height: 14px;
+}
+.div.separator
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-top: 1px solid #CCCCCC;
+   overflow: hidden;
+   border-bottom: 2px solid #F5F5F5;
+}
+.div.text-box
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   font: 13px/17px Arial, Helvetica, sans-serif;
+}
+.div.text-box h1
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-bottom: 12px;
+}
+.div.text-box img.icon
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 10px 10px 10px 10px;
+}
+.div.text-box ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: disc;
+}
+.div.text-box ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   line-height: 17px;
+}
+.div.contact_form
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 415px;
+   margin-top: 15px;
+}
+.div.survey_form
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-top: 15px;
+}
+.div.row
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   clear: both;
+   padding-top: 3px;
+   margin-top: 3px;
+}
+.div.row span.label
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 145px;
+   float: left;
+   text-align: right;
+}
+.div.row span.formw
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 250px;
+   float: right;
+}
+.errorstar
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #CC0000;
+   background-color: transparent;
+   width: 5px;
+   float: left;
+   text-align: left;
+   font: bold 16px arial, helvetica, sans-serif;
+}
+.ul.links
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-bottom: 2px;
+}
+.ul.links li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/arrow-links.gif);
+   padding-left: 12px;
+   line-height: 21px;
+   background-position: 0 8px;
+   background-repeat: no-repeat;
+}
+.ul.actions li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   line-height: 21px;
+}
+.ul.tabset
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+}
+.ul.tabset li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: left;
+   padding-right: 2px;
+}
+.ul.tabset li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000666;
+   background-color: #ECECEC;
+   background-image: url(images/tabset-left.gif);
+   padding: 0px 0px 0px 0px;
+   float: left;
+   background-repeat: no-repeat;
+   display: block;
+}
+.ul.tabset li a span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/tabset-right.gif);
+   padding: 0px 0px 0px 0px;
+   cursor: pointer;
+   float: left;
+   line-height: 23px;
+   background-position: top right;
+   background-repeat: no-repeat;
+   display: block;
+}
+.ul.tabset li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #669900;
+   background-color: #000FFF;
+   background-position: 0 -23px;
+}
+.ul.tabset li a.active
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #669900;
+   background-color: #000FFF;
+   background-position: 0 -23px;
+}
+.ul.tabset li a:hover span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   cursor: pointer;
+   background-position: 100% -23px;
+}
+.ul.tabset li a.active span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   cursor: pointer;
+   background-position: 100% -23px;
+}
+.jive-html-text-widget p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+}
+.div.box div.head
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #777777;
+   background-image: url(images/background-box.png);
+   overflow: hidden;
+   height: 1%;
+}
+.div.box div.head strong.head
+{
+   font-size: 11px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #000FFF;
+   background-color: transparent;
+   background-image: url(images/background-box-head.gif);
+   padding-left: 16px;
+   line-height: 19px;
+   background-repeat: no-repeat;
+   display: block;
+}
+.div.box div.body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 10px 10px 10px 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.div.box-grey div.head
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000999;
+   background-image: url(none);
+}
+.div.box-grey div.head strong.head
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-box-grey-head.gif);
+   padding-left: 16px;
+}
+.div.box-grey div.body p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   line-height: 16px;
+}
+.#content-right div.box-grey div.body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.div.inner-right div.box-grey div.body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.jive-body-layout-s p
+{
+   font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 2px 2px 2px 2px;
+   padding-top: 12px !important;
+}
+.div.full-box div.head
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-box-full.png);
+}
+.div.full-box div.head strong.head
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-box-full-head.gif);
+   padding-left: 11px;
+   line-height: 27px;
+}
+.div.full-box div.body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 1px #000CCC none;
+   padding: 0px 0px 0px 0px;
+   border-top: none;
+}
+.div.full-box div.actions
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 11px 11px 11px 11px;
+   overflow: hidden;
+   height: 1%;
+   margin-bottom: 10px;
+}
+.div.full-box div.actions div.selector
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: left;
+}
+.div.full-box div.actions div.selector label
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-right: 5px;
+}
+.div.full-box div.actions div.selector select
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #666666;
+   background-color: transparent;
+   margin-right: 5px;
+   font: 11px Arial, Helvetica, sans-serif;
+}
+.div.full-box div.actions div.roll
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: right;
+}
+.div.full-box div.actions div.roll ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+}
+.div.full-box div.actions div.roll ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: inline;
+}
+.div.full-box div.actions div.roll ul li.next
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 3px;
+   border-left: 1px solid #000;
+}
+.div.box ul.news
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+}
+.div.box ul.news li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 9px 9px 9px 9px;
+   border-top: 2px dotted #CCCCCC;
+}
+.div.box ul.news li:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-top: none;
+   padding-top: 0;
+}
+.div.ad a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: block;
+}
+.div.ad a img
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-bottom: 4px;
+}
+.div.ad a span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: block;
+}
+.strong.seo
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   z-index: 40;
+   position: absolute;
+   left: -10px;
+   display: block;
+   top: 25px;
+}
+.strong.seoTenth
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   z-index: 40;
+   position: absolute;
+   left: -10px;
+   display: block;
+   top: 5px;
+}
+.strong.seo a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/logo-2014-grey.png);
+   width: 270px;
+   overflow: hidden;
+   height: 36px;
+   text-indent: -9999px;
+   background-repeat: no-repeat;
+   display: block;
+}
+.strong.seoTenth a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/vmw2013-logo-tenth-wide-02.png);
+   width: 361px;
+   overflow: hidden;
+   height: 71px;
+   text-indent: -9999px;
+   background-repeat: no-repeat;
+   display: block;
+}
+.#container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 78px 78px 78px 78px;
+   width: 960px;
+   position: relative;
+}
+.#header
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EDEDED;
+   background-image: url(images/background-header.png);
+   width: 100%;
+   z-index: 30;
+   position: absolute;
+   height: 100px;
+   left: 0;
+   background-repeat: no-repeat;
+   top: 9px;
+}
+.#navigation-welcome
+{
+   font-family: "Arial, Helvetica, sans-serif";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+   margin: 0px 0px 0px 0px;
+   list-style: none;
+   padding-left: 2px;
+   right: 230px;
+   position: absolute;
+   top: 13px;
+}
+.#navigation-extra
+{
+   font-family: "Arial, Helvetica, sans-serif";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+   position: absolute;
+   top: 15px;
+}
+.#navigation-extra li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   line-height: 15px;
+   display: inline;
+}
+.#navigation-extra li:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-left: none;
+}
+.#navigation-extra li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+}
+.#navigation-extra li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: underline;
+   background-color: transparent;
+}
+.#form-search
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   right: -17px;
+   position: relative;
+   top: 24px;
+}
+.#form-search label
+{
+   font-family: "Arial, Helvetica, sans-serif";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: left;
+   padding-right: 2px;
+   line-height: 20px;
+   display: block;
+}
+.#form-search input.text
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000666;
+   background-color: transparent;
+   border: 1px #A5ACB2 none;
+   margin: 0px 0px 0px 0px;
+   padding: 2px 2px 2px 2px;
+   width: 120px;
+   float: left;
+   height: 14px;
+   display: block;
+   font: 11px Arial, Helvetica, sans-serif;
+}
+.#form-search select
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000666;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   float: left;
+   display: block;
+   font: 11px Arial, Helvetica, sans-serif;
+}
+.#form-search input.submit
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: left;
+   display: block;
+}
+.#navigation-top
+{
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+   position: absolute;
+   left: 2px;
+   top: 44px;
+}
+.#navigation-top li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: left;
+   margin-left: -1px;
+}
+.#navigation-top li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #666666;
+   background-color: transparent;
+   background-image: url(images/navigation-top-left.gif);
+   padding: 0px 0px 0px 0px;
+   position: relative;
+   float: left;
+   background-repeat: no-repeat;
+   display: block;
+}
+.#navigation-top li a span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/navigation-top-right.gif);
+   padding: 6px 6px 6px 6px;
+   cursor: pointer;
+   float: left;
+   line-height: 21px;
+   background-position: top right;
+   background-repeat: no-repeat;
+   display: block;
+}
+.#navigation-top li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+}
+.#navigation-top li a.active
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+   background-position: 0 -27px;
+}
+.#navigation-top li a.active span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-top: 2px;
+   line-height: 25px;
+   background-position: 100% -27px;
+}
+.#navigation-main
+{
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+   position: absolute;
+   left: 6px;
+   top: 9px;
+}
+.#navigation-main li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/separator-navigation-main.gif);
+   padding: 0px 0px 0px 0px;
+   position: relative;
+   float: left;
+   background-position: left;
+   background-repeat: no-repeat;
+}
+.#navigation-main li:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#navigation-main li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #666666;
+   background-color: transparent;
+   padding: 3px 3px 3px 3px;
+   z-index: 10;
+   position: relative;
+   float: left;
+   line-height: 22px;
+   display: block;
+}
+.#navigation-main li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+}
+.#droplink-label
+{
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+}
+.#jive-userbar-droplink
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-top: 2px;
+}
+.#jive-userbar-droplink a
+{
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000666;
+   background-color: transparent;
+   background-image: url(images/separator-navigation-main.gif);
+   margin: 0px 0px 0px 0px;
+   padding: 3px 3px 3px 3px;
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-background-clip: border;
+   cursor: pointer;
+   outline-style: none;
+   outline-color: -moz-use-text-color;
+   outline-width: medium;
+   background-position: left;
+   background-repeat: no-repeat;
+}
+.#jive-userbar-droplink a:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#jive-userbar-droplink a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+   background-image: url(images/separator-navigation-main.gif);
+   background-position: left;
+   background-repeat: no-repeat;
+}
+.#jive-userbar-droplink a:hover:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#jive-userbar-droplink a:hover span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+}
+.#jive-userbar-droplink a:hover:first-child span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-background-clip: border;
+}
+.#jive-userbar-droplink a.jive-userbar-droplink-on
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/separator-navigation-main.gif);
+   background-position: left;
+   background-repeat: no-repeat;
+}
+.#jive-userbar-droplink a.jive-userbar-droplink-on:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#jive-userbar-droplink a span.jive-userbar-create
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#jive-userbar-droplink a span.jive-userbar-toolbox
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#jive-userbar-droplink a span.jive-userbar-history
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#jive-userbar-droplink a span.jive-userbar-navigation
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#navigation-main li.hover a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #666666;
+   background-color: #000FFF;
+   padding: 0px 0px 0px 0px;
+   border-top: 1px solid #D2D2D2;
+   border-bottom: 1px solid #FFF;
+   border-right: 1px solid #D2D2D2;
+   line-height: 20px;
+   border-left: 1px solid #D2D2D2;
+}
+.#navigation-main li.hover a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #666666;
+   background-color: #000FFF;
+   padding: 0px 0px 0px 0px;
+   border-top: 1px solid #D2D2D2;
+   border-bottom: 1px solid #FFF;
+   border-right: 1px solid #D2D2D2;
+   line-height: 20px;
+   border-left: 1px solid #D2D2D2;
+}
+.#navigation-main li a.active
+{
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+}
+.#navigation-main li ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000FFF;
+   border: 1px #D2D2D2 none;
+   margin: 0px 0px 0px 0px;
+   padding: 2px 2px 2px 2px;
+   width: 150px;
+   list-style: none;
+   position: absolute;
+   left: 3px;
+   display: none;
+   top: 21px;
+}
+.#navigation-main li ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   float: none;
+}
+.#navigation-main li.hover ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: block;
+}
+.#navigation-main li ul li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #999999;
+   background-color: transparent;
+   background-image: url(none);
+   border: 0px #FFFFFF none;
+   padding: 0px 0px 0px 0px;
+   width: 100%;
+   float: none;
+   line-height: 20px;
+}
+.#navigation-main li.hover ul li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #999999;
+   background-color: transparent;
+   background-image: url(none);
+   border: 0px #FFFFFF none;
+   padding: 0px 0px 0px 0px;
+   width: 100%;
+   float: none;
+   line-height: 20px;
+}
+.#navigation-main li ul li a span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 2px 2px 2px 2px;
+   float: none;
+   display: block;
+}
+.#navigation-main li ul li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: #D6E3B9;
+   background-image: url(images/navigation-sub-top.gif);
+   border: 0px #FFFFFF none;
+   padding: 0px 0px 0px 0px;
+   line-height: 20px;
+   background-repeat: no-repeat;
+}
+.#navigation-main li.hover ul li:hover a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: #D6E3B9;
+   background-image: url(images/navigation-sub-top.gif);
+   border: 0px #FFFFFF none;
+   padding: 0px 0px 0px 0px;
+   line-height: 20px;
+   background-repeat: no-repeat;
+}
+.#navigation-main li.hover ul li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: #D6E3B9;
+   background-image: url(images/navigation-sub-top.gif);
+   border: 0px #FFFFFF none;
+   padding: 0px 0px 0px 0px;
+   line-height: 20px;
+   background-repeat: no-repeat;
+}
+.#navigation-main li ul li a:hover span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/navigation-sub-bottom.gif);
+   background-position: bottom left;
+   background-repeat: no-repeat;
+}
+.#navigation-main li.hover ul li a:hover span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/navigation-sub-bottom.gif);
+   background-position: bottom left;
+   background-repeat: no-repeat;
+}
+.#footer
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000999;
+   background-color: #EDEDED;
+   background-image: url(images/background-footer.png);
+   padding: 5px 5px 5px 5px;
+   width: 100%;
+   overflow: hidden;
+   height: 40px;
+   background-repeat: no-repeat;
+}
+.#footer p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   line-height: 28px;
+   display: inline;
+}
+.#navigation-bottom
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+   display: inline;
+}
+.#navigation-bottom li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.#navigation-bottom li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000999;
+   background-color: transparent;
+}
+.#navigation-bottom li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: underline;
+   background-color: transparent;
+}
+.#secondary-navigation
+{
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style-image: none;
+   list-style-type: none;
+   list-style-position: outside;
+}
+.#secondary-navigation li
+{
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/arw-blue.gif);
+   padding: 1px 1px 1px 1px;
+   border-top: 1px solid #CCCCCC;
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-background-clip: border;
+   background-position: transparent 0 12px;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.#secondary-navigation li.active
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/arw-lightblue-4x8.gif);
+}
+.#secondary-navigation li.active a
+{
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+}
+.#secondary-navigation li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 8px 8px 8px 8px;
+   display: block;
+}
+.#secondary-navigation li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+   background-image: url(images/arw-lightblue-4x8.gif);
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-background-clip: border;
+   background-position: transparent 0 11px;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.#secondary-navigation ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   border-top: 1px solid #C5D4E9;
+   list-style-image: none;
+   list-style-type: none;
+   list-style-position: outside;
+}
+.#secondary-navigation li ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/arw-blue.gif);
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-background-clip: border;
+   background-position: transparent 10px 12px;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.#secondary-navigation li ul li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #717074;
+   background-color: transparent;
+   padding-left: 21px;
+}
+.#secondary-navigation li li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: transparent;
+   background-image: url(images/arw-lightblue-4x8.gif);
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-background-clip: border;
+   background-position: transparent 10px 11px;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}
+.#secondary-navigation li.active ul li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #717074;
+   background-color: transparent;
+}
+.#content
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   overflow: hidden;
+   height: 1%;
+}
+.#content-right
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 680px;
+   float: right;
+   margin-left: 0px;
+   border-left: 1px solid #CCCCCC;
+}
+.#content-right-nobar
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 680px;
+   float: right;
+   clear: both;
+   margin-left: -1px;
+}
+.#content-left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 220px;
+   float: left;
+}
+.#content-left-nobar
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 220px;
+   float: left;
+   clear: both;
+}
+.#content-left-main
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 692px;
+   float: left;
+}
+.#content-right-session
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 680px;
+   float: right;
+   margin-left: -1px;
+   border-left: 1px solid #CCCCCC;
+}
+.#content-right-new
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 210px;
+   border-right: 1px solid #CCCCCC;
+   float: right;
+}
+.#content-right-new-nobar
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 220px;
+   float: right;
+}
+.#content-left-session
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 220px;
+   border-right: 1px solid #CCCCCC;
+   float: left;
+}
+.#content-left-new
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 680px;
+   float: left;
+   margin-left: -1px;
+   border-left: 1px solid #CCCCCC;
+}
+.left #content-right
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 231px;
+   overflow: hidden;
+   float: left;
+   border-left: 1px solid #CCCCCC;
+}
+.left #content-left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 646px;
+   float: left;
+   margin-right: -1px;
+}
+.jive-widget .jive-widget-body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   overflow: hidden;
+   clear: left;
+}
+.div.inner-left
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 430px;
+   float: left;
+}
+.div.inner-right
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 238px;
+   padding-left: 2px;
+   float: right;
+   border-left: 1px solid #CCCCCC;
+}
+.#promo
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   width: 710px;
+   z-index: 10;
+   position: relative;
+   float: left;
+   clear: both;
+}
+.#quickbar
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-quickbar.gif);
+   padding: 1px 1px 1px 1px;
+   width: 230px;
+   -moz-background-origin: padding;
+   -moz-background-inline-policy: continuous;
+   -moz-background-clip: border;
+   position: relative;
+   float: right;
+   border-left: 1px solid #FFF;
+   background-position: top right;
+   background-repeat: no-repeat;
+}
+.#quickbar div.inner
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EFEFEF;
+   padding: 10px 10px 10px 10px;
+   overflow: hidden;
+   border-bottom: 1px solid #CCCCCC;
+   height: 220px;
+}
+.#quickbar-main
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-quickbar.gif);
+   padding: 1px 1px 1px 1px;
+   width: 238px;
+   position: relative;
+   float: left;
+   border-left: 1px solid #FFF;
+   background-position: top right;
+   background-repeat: no-repeat;
+}
+.#quickbar-main div.inner
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EFEFEF;
+   padding: 10px 10px 10px 10px;
+   overflow: hidden;
+   border-bottom: 3px solid #CCCCCC;
+   height: 177px;
+   border-left: 1px solid #CCCCCC;
+}
+.#quickbar-main div.register2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-bottom: 10px;
+}
+.#quickbar-main div.register
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   padding: 10px 10px 10px 10px;
+}
+.#quickbar div.register2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   padding: 10px 10px 10px 10px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+}
+.#content-top
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 16px 16px 16px 16px;
+   font: 13px Arial, Helvetica, sans-serif;
+}
+.#content-top-main
+{
+   font-family: Arial,Helvetica,sans-serif;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 16px 16px 16px 16px;
+   font-variant: normal;
+   font-stretch: normal;
+   font-size-adjust: none;
+   line-height: normal;
+}
+.#content-top-main p.more
+{
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+}
+.#content-right #content-top
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 0;
+   padding-top: 0;
+   padding-right: 100px;
+}
+.#content-top p.more
+{
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+}
+.div.columns
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-columns.png);
+   margin: 0px 0px 0px 0px;
+   overflow: hidden;
+   height: 1%;
+   background-repeat: no-repeat;
+}
+.div.columns div.inner
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-columns-inner.png);
+   overflow: hidden;
+   height: 1%;
+   background-position: bottom left;
+   background-repeat: no-repeat;
+}
+.div.columns div.large
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 8px 8px 8px 8px;
+   width: 415px;
+   float: left;
+}
+.div.columns div.large2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 8px 8px 8px 8px;
+   width: 640px;
+   float: left;
+}
+.div.columns div.small
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 8px 8px 8px 8px;
+   width: 194px;
+   float: right;
+}
+.div.columns div.video
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 8px 8px 8px 8px;
+   width: 75px;
+   float: left;
+}
+.div.columns div.body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 188px;
+   float: left;
+}
+.div.columns div.body div.tiny
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 75px;
+   float: left;
+}
+.div.columns div.large div.first
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-right: 1px solid #E5E5E5;
+   padding-right: 18px;
+}
+.div.columns div.large div.second
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 20px;
+   margin-left: -1px;
+   border-left: 1px solid #E5E5E5;
+}
+.div.full-columns
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-columns-full.png);
+   margin: 0px 0px 0px 0px;
+   background-repeat: no-repeat;
+}
+.div.full-columns div.inner
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-columns-full-inner.png);
+   padding: 10px 10px 10px 10px;
+   overflow: hidden;
+   height: 1%;
+   background-position: bottom left;
+   background-repeat: no-repeat;
+}
+.div.full-columns div.body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 260px;
+   float: left;
+}
+.div.full-columns div.first
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-right: 1px solid #E5E5E5;
+   margin-right: -1px;
+}
+.div.full-columns div.second
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-right: 1px solid #E5E5E5;
+   margin-right: -1px;
+   border-left: 1px solid #E5E5E5;
+}
+.div.full-columns div.third
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-left: 1px solid #E5E5E5;
+}
+.div.boxes
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   overflow: hidden;
+   height: 1%;
+}
+.div.boxes div.box
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 320px;
+   float: left;
+}
+.div.boxes div.first
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-right: 1px solid #CCCCCC;
+   padding-right: 8px;
+}
+.div.boxes div.second
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 1px;
+   margin-left: -1px;
+   border-left: 1px solid #CCCCCC;
+}
+.div.boxes div.box div.body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 13px 13px 13px 13px;
+}
+.div.boxes div.box ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   line-height: 21px;
+}
+.div.full-boxes
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   overflow: hidden;
+   height: 1%;
+   margin-bottom: 15px;
+}
+.div.full-boxes div.box
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 215px;
+   padding-left: 9px;
+   float: left;
+}
+.div.full-boxes div.box:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 0;
+}
+.div.register
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EFEFEF;
+   background-image: url(images/background-register.png);
+   background-repeat: no-repeat;
+}
+.#quickbar div.register
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   padding-top: 10px;
+}
+.div.register div.inner
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/background-register-inner.png);
+   padding: 14px 14px 14px 14px;
+   background-position: bottom left;
+   background-repeat: no-repeat;
+}
+.div.register div.label
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/headline-register.gif);
+   width: 100%;
+   overflow: hidden;
+   height: 57px;
+   margin-bottom: 9px;
+   text-indent: -9999px;
+   background-repeat: no-repeat;
+}
+.div.register2 div.label
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/headline-register2.gif);
+   width: 100%;
+   overflow: hidden;
+   height: 56px;
+   margin-bottom: 9px;
+   text-indent: -9999px;
+   background-repeat: no-repeat;
+}
+.div.logon2 div.label
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/headline-logon2.gif);
+   width: 100%;
+   overflow: hidden;
+   height: 67px;
+   margin-bottom: 9px;
+   text-indent: -9999px;
+   background-repeat: no-repeat;
+}
+.ul.table-holder
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: none;
+}
+.ul.table-holder li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   overflow: hidden;
+   line-height: 29px;
+}
+.ul.table-holder li.dark
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EFEFEF;
+}
+.ul.table-holder span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   float: left;
+   display: block;
+}
+.ul.table-holder span.center
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   text-align: center;
+}
+.ul.table-holder li.thead
+{
+   font-size: 9.3px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000FFF;
+   background-color: #ABB0B6;
+   background-image: url(images/thead-right.gif);
+   text-transform: uppercase;
+   padding-top: 0;
+   line-height: 21px;
+   background-position: top right;
+   background-repeat: no-repeat;
+}
+.ul.table-holder li.tsubhead
+{
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: #D6E3B9;
+   padding: 0px 0px 0px 0px;
+   line-height: 31px;
+}
+.ul.table-holder li.thead span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-repeat: no-repeat;
+}
+.ul.table-holder li.thead span:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/thead-left.gif);
+}
+.ul.table-holder div.subnote
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #999999;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   border-top: 1px solid #CCCCCC;
+   clear: both;
+   padding-top: 4px;
+   font: 11px/13px Arial, Helvetica, sans-serif;
+}
+.ul.table-sessions span.id
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 46px;
+}
+.ul.table-sessions span.session
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 346px;
+}
+.ul.table-sessions span.keynote
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 450px;
+}
+.ul.table-sessions span.presenter
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 82px;
+   text-align: left;
+}
+.ul.table-sessions span.view
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 77px;
+   text-align: left;
+}
+.ul.table-sessions div.subnote
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 77px;
+}
+.ul.table-documents span.type
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 95px;
+}
+.ul.table-documents span.subject
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 190px;
+}
+.ul.table-documents span.tags
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 125px;
+}
+.ul.table-documents span.lasta
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 150px;
+}
+.#form-login div.label
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/headline-login.gif);
+   width: 100%;
+   overflow: hidden;
+   height: 70px;
+   margin-bottom: 6px;
+   text-indent: -9999px;
+   background-repeat: no-repeat;
+}
+.#form-login label
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100%;
+   clear: left;
+   margin-bottom: 2px;
+   display: block;
+}
+.#form-login input.text
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #666666;
+   background-color: transparent;
+   border: 1px #B3B3B3 none;
+   margin: 1px 1px 1px 1px;
+   padding: 2px 2px 2px 2px;
+   width: 150px;
+   float: left;
+   display: block;
+   font: 12px Arial, Helvetica, sans-serif;
+}
+.#form-login input.submit
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: right;
+   margin-right: 10px;
+   margin-left: 5px;
+   display: block;
+}
+.#form-login em.legend
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/headline-login-legend.gif);
+   margin: 0px 0px 0px 0px;
+   padding: 6px 6px 6px 6px;
+   width: 100%;
+   overflow: hidden;
+   height: 32px;
+   clear: left;
+   text-indent: -9999px;
+   background-position: 0 6px;
+   background-repeat: no-repeat;
+   display: block;
+}
+.#jive-body
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#jive-body-full
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.#jive-body-intro
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: auto;
+}
+.#jive-body-intro-content h1
+{
+   font-family: Arial,Helvetica,sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+}
+.#jive-body-intro-content p
+{
+   font-family: Arial,Helvetica,sans-serif;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-bottom: 10px;
+}
+.#jive-bodyhome-maincol-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: none;
+   margin-left: 0;
+}
+.html > body #jive-bodyhome-maincol
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: -11pt;
+}
+.jive-body-intro-tour
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 225px;
+   padding-left: 0;
+   float: none;
+   padding-top: 10px;
+   margin-left: 5px;
+   padding-right: 5px;
+   border-left: none;
+}
+.jive-body-intro-tour h3
+{
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #555555;
+   background-color: transparent;
+   padding: 3px 3px 3px 3px;
+   float: left;
+}
+.jive-body-intro-tour span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 5px 5px 5px 5px;
+   float: right;
+}
+.jive-body-intro-tour p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 5px 5px 5px 5px;
+   clear: both;
+}
+.#jive-community-list-short .jive-community-item-header
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-top: 0px;
+}
+.jive-community-item-content
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+}
+.#jive-body-maincol-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 680px;
+   min-height: 350px;
+   min-width: 0;
+   float: left;
+   _width: 720px;
+   margin-right: -245px;
+}
+.#jive-body-full #jive-body-maincol-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 910px;
+   _width: 910px;
+}
+.#jive-body-full #jive-body-maincol
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 910px;
+   _width: 910px;
+}
+.#jive-body-maincol-conferences-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 720px;
+   min-height: 350px;
+   min-width: 0;
+   float: left;
+   _width: 720px;
+   margin-right: 0;
+}
+.#jive-body-maincol-europe
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 930px;
+   min-height: 350px;
+   min-width: 0;
+   float: left;
+   _width: 930px;
+   margin-right: 0;
+}
+.#jive-body-sidebarcol-conferences-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 210px;
+   float: left;
+}
+.#jive-body-maincol
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   width: 640px;
+   margin-right: 0;
+   margin-left: 35px;
+}
+.#jive-body-sidebarcol
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 20px;
+   padding-right: 0;
+}
+.#jive-body-sidebarcol-conferences
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+.#jive-body-announcements
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: auto;
+   min-width: 0;
+   _width: auto;
+}
+.#jive-body-announcements-main
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100%;
+   _width: 650px;
+}
+.jive-content-block-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   float: left;
+   clear: both;
+}
+.jive-content-block-container-europe
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   width: 930px;
+   float: left;
+   clear: both;
+   _width: 930px;
+}
+.jive-content-block-container-home
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EEEEEE;
+   margin: 0px 0px 0px 0px;
+   width: 675px;
+   _width: 680px;
+   _margin-left: 6px;
+}
+.#jive-body-intro-overview
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0pt 0pt 0pt 0pt;
+   padding: 10px 10px 10px 10px;
+   display: none;
+}
+.jive-body-tabbar-overview
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0pt 0pt 0pt 0pt;
+   padding: 0pt 0pt 0pt 0pt;
+   overflow: hidden;
+   height: 25px;
+   clear: both;
+   display: block;
+}
+.jive-body-intro-community .jive-body-tabbar-overview
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: 22px;
+   margin-top: 8px;
+}
+.#jive-spaces-expanded
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: none;
+}
+.jive-spaces-hidden
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: none;
+}
+.html > body #jive-content-overview-widecol-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 50%;
+   margin-right: 0;
+}
+.html > body #jive-content-overview-widecol
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-right: 0;
+}
+.#jive-content-overview-widecol
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100%;
+   margin-right: 0;
+}
+.#jive-content-overview-widecol-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 50%;
+}
+.#jive-content-overview-thincol-container
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   width: 50%;
+}
+.#jive-content-overview-thincol
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0pt 0pt 0pt 0pt;
+}
+.jive-community-overview-discussions span
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100%;
+}
+.#jive-home-topmembers
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 223px;
+   _width: 220px;
+   margin-left: 2px;
+}
+.#jive-home-populartags
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 223px;
+   _width: 220px;
+   margin-left: 2px;
+}
+.#jive-home-latestpoll
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 195px;
+   margin-left: 0px;
+}
+.#jive-userbar
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   width: 950px;
+   z-index: 40;
+   float: left;
+   position: absolute;
+   height: 22px;
+   top: 82px;
+}
+.#jive-userbar-right
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   padding: 0px 0px 0px 0px;
+}
+.jive-userbar-menu
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   left: 0;
+   top: 26px;
+}
+.jive-userbar-menu a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #880024;
+   background-color: #D6E3B9;
+}
+.#jive-userbar-community-tree
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 250px;
+}
+.jive-communitylist-sm
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   padding: 0px 0px 0px 0px;
+}
+.jive-thread-info
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #9CCA40;
+}
+.jive-thread-post
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #E7FAC3;
+}
+.jive-icon-community-big
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+}
+.jive-body-intro-profile .jive-body-tabbar
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: 40px;
+}
+.note
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #CC6600;
+   background-color: transparent;
+   font: bold 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+.note2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #CC6600;
+   background-color: transparent;
+   font: 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+.smalltext
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   font: 11px Tahoma, Arial, Helvetica, sans-serif;
+}
+.#conference-userbar
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   width: 950px;
+   z-index: 40;
+   float: left;
+   position: absolute;
+   top: 70px;
+}
+.#sessions_title
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-bottom: 10px;
+}
+.#sessions_title .h2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   font: bold 14px Arial, Helvetica, sans-serif;
+}
+.#sessions_title .link
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   font: 14px Arial, Helvetica, sans-serif;
+}
+.#sessions_title .sessions_info
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   text-align: right;
+   line-height: 31px;
+}
+.#sessions_subtitle
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #D6E3B9;
+   padding: 5px 5px 5px 5px;
+}
+.#sessions_subtitle .h5
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #6EA101;
+   background-color: #D6E3B9;
+   line-height: 25px;
+   font: bold 12px Arial, Helvetica, sans-serif;
+}
+.#sessions_subtitle .sessions_info
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #7C7C7C;
+   background-color: #D6E3B9;
+   float: right;
+   line-height: 25px;
+   font: 12px Arial, Helvetica, sans-serif;
+}
+.jive-link-video-small
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/video_icon.gif);
+   padding: 1px 1px 1px 1px;
+   background-position: left center;
+   background-repeat: no-repeat;
+}
+.ul.table-challenge span.type
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100px;
+}
+.ul.table-challenge span.user
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 120px;
+}
+.ul.table-challenge span.game
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 120px;
+}
+.ul.table-challenge span.date
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100px;
+}
+.ul.table-challenge span.score
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100px;
+}
+.#challenge_subtitle
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #D6E3B9;
+   padding: 5px 5px 5px 5px;
+}
+.#challenge_subtitle .h5
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #6EA101;
+   background-color: #D6E3B9;
+   line-height: 25px;
+   font: bold 12px Arial, Helvetica, sans-serif;
+}
+.#title_banner
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #76B900;
+   line-height: 50px;
+   font: 20px Arial, Helvetica, sans-serif;
+}
+.#session_search
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   font: 11px Arial, Helvetica, sans-serif;
+}
+.#zonejump-style
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   font: 10px Arial, Helvetica, sans-serif;
+}
+.div.session-abstract-description
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0em 0em 0em 0em;
+   line-height: 1.4em;
+}
+.session-abstract-description table
+{
+   font-family: sans-serif;
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000FFF;
+   border-collapse: collapse;
+   float: none;
+}
+.session-abstract-description table th.session-details
+{
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #E8E4B6;
+   text-align: left;
+}
+.session-abstract-description table th
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #212121;
+   background-color: #E8E4D6;
+   border: 1px #434343 none;
+   padding: 0.3em 0.3em 0.3em 0.3em;
+   text-align: right;
+   white-space: nowrap;
+   vertical-align: top;
+}
+.session-abstract-description table td
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 1px #434343 none;
+   padding: 0.3em 0.3em 0.3em 0.3em;
+}
+.session-abstract-description p img
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: 0em;
+   margin-top: 0em;
+}
+.jive-widget .jive-widget-header
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(none);
+   background-position: !important;
+}
+.vmw-content-box
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000FFF;
+}
+.#navGlobal
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #464646;
+   width: 100%;
+   z-index: 9999;
+   overflow: hidden;
+   border-bottom: solid 1px #636262;
+   position: fixed;
+   height: 78px;
+   top: 0px;
+}
+.#navGlobal ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   width: 960px;
+   z-index: 2;
+   position: relative;
+}
+.#navGlobal li
+{
+   font-size: 12px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   text-transform: uppercase;
+   border-right: solid 1px #636262;
+   float: left;
+   text-align: center;
+}
+.#navGlobal li:first-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+   width: 275px;
+   height: 78px;
+}
+.#navGlobal li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #CCCCCC;
+   background-color: transparent;
+   padding: 28px 28px 28px 28px;
+   width: 95px;
+   display: block;
+}
+.#navGlobal li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #006990;
+}
+.#navGlobal li a:active
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #0095D3;
+}
+.#navGlobal #logo a
+{
+   font-size: 8px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/logo-2015-white.png);
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   width: 272px;
+   position: absolute;
+   height: 31px;
+   margin-top: 20px;
+   background-repeat: no-repeat;
+   display: block;
+}
+.#navGlobal #logo p
+{
+   font-size: 8px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/logo-2015-white.png);
+   width: 160px;
+   text-transform: capitalize;
+   height: 31px;
+   margin-left: 210px;
+   margin-top: 20px;
+   background-position: -207px 0;
+   background-repeat: no-repeat;
+}
+.#navGlobal .extend
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #3893D2;
+   width: 35%;
+   position: absolute;
+   height: 70px;
+   left: 0px;
+}
+.#navGlobal li.last
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+   width: 130px;
+   margin-top: 25px;
+}
+.#navGlobal li .fb-like-cont
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   width: 48px;
+   overflow: hidden;
+   float: left;
+   height: 20px;
+   display: block;
+}
+.#navGlobal li .twitter-follow-button
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: left;
+}
+.#nav2014
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #333330;
+   border: 1px #1B313D none;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333',endColorstr='#000000',GradientType=0);
+   height: 50px;
+   display: block;
+}
+.#nav2014 > ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   border-top: solid 1px #666666;
+   list-style: inside none;
+}
+.#nav2014 > ul > li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: inside none;
+   position: relative;
+   float: left;
+   display: block;
+}
+.#nav2014 > ul > li > a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000FFF;
+   background-color: transparent;
+   padding: 18px 18px 18px 18px;
+   border-right: 1px solid #1b313d;
+   position: relative;
+   text-align: center;
+   outline: none;
+   text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+   display: block;
+   font: bold 13px/100% Arial, Helvetica, sans-serif;
+}
+.#nav2014 > ul > li:first-child > a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-radius: 3px 0 0 3px;
+}
+.#nav2014 > ul > li > a:after
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   z-index: 99;
+   border-right: 1px solid;
+   right: -2px;
+   position: absolute;
+   content: "";
+   bottom: -1px;
+   top: -1px;
+}
+.#nav2014 ul li.has-sub:hover > a:after
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   bottom: 0;
+   top: 0;
+}
+.#nav2014 > ul > li.has-sub > a:before
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 5px #FFFFFF none;
+   border-top: 5px solid #fff;
+   right: 6px;
+   position: absolute;
+   content: "";
+   top: 18px;
+}
+.#nav2014 > ul > li.has-sub:hover > a:before
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   top: 19px;
+}
+.#nav2014 ul li.has-sub:hover > a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #717074;
+   z-index: 999;
+   padding-bottom: 13px;
+   height: 39px;
+   padding-top: 13px;
+   top: -1px;
+}
+.#nav2014 ul li.has-sub:hover > ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: block;
+}
+.#nav2014 ul li.has-sub:hover > div
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: block;
+}
+.#nav2014 ul li.has-sub > a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #717074;
+}
+.#nav2014 ul li > ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #717074;
+   padding: 10px 10px 10px 10px;
+   width: 200px;
+   z-index: 999;
+   position: absolute;
+   border-radius: 0 0 5px 15px;
+   display: none;
+   top: 51px;
+}
+.#nav2014 ul li > div
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #717074;
+   padding: 10px 10px 10px 10px;
+   width: auto;
+   z-index: 999;
+   position: absolute;
+   border-radius: 0 0 5px 15px;
+   display: none;
+   top: 51px;
+}
+.#nav2014 ul li > ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   list-style: inside none;
+   position: relative;
+   display: block;
+}
+.#nav2014 ul li > ul li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #000FFF;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 8px 8px 8px 8px;
+   position: relative;
+   outline: none;
+   text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+   display: block;
+   font: 10pt Arial, Helvetica, sans-serif;
+}
+.#nav2014 > ul > li > ul > li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #333330;
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333',endColorstr='#000000',GradientType=0);
+}
+.#nav2014 > ul > li > a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #000111;
+}
+.#utility-2014
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   width: 100%;
+   z-index: 500;
+   position: fixed;
+   height: 28px;
+   top: 79px;
+}
+.#utility-2014-nav
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: left;
+   margin-left: 50% width:50%;
+}
+.#utility-2014-nav ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   margin: 8px 8px 8px 8px;
+}
+.#utility-2014-nav ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: inline !important;
+}
+.#footerExtended
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #717074;
+   padding: 30px 30px 30px 30px;
+   border-top: solid 1px #636262;
+   width: 100%;
+   z-index: 981;
+   overflow: hidden;
+   position: relative;
+   clear: both;
+   line-height: 1.3em;
+}
+.#footerExtended a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+}
+.#footerExtended li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-bottom: 1px dotted #ffffff;
+   display: inline-block;
+}
+.#footerExtended p a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-bottom: 1px dotted #ffffff;
+   display: inline-block;
+}
+.#footerExtended a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border-bottom-style: solid;
+}
+.#footerExtended li
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-bottom: 14px;
+}
+.#footerExtended .social
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-bottom: 22px;
+}
+.#footerExtended .header
+{
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 18px 18px 18px 18px;
+}
+.#footerExtended .button
+{
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-top: 10px;
+   display: inline-block;
+}
+.#footerExtended img
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-bottom: 22px;
+   display: block;
+}
+.#footerExtended p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-bottom: 10px;
+}
+.#footerExtended div
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-right: 12px;
+}
+.#footerExtended div:last-child
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-right: 0;
+}
+.#footerExtended div h4
+{
+   font-family: "Helvetica Neue, arial, sans-serif";
+   font-size: 13px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-bottom: 28px;
+   text-transform: uppercase;
+}
+.#footerExtended div .col1
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 210px;
+   float: left;
+}
+.#footerExtended div .col2
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 210px;
+   float: left;
+}
+.#footerExtended div .col3
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 220px;
+   float: left;
+}
+.#footerExtended div .col4
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 220px;
+   float: left;
+}
+.#footerExtended div .col3 div p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: none;
+}
+.#footerExtended div .col3 div img+p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   display: block;
+}
+.#footerVMW
+{
+   font-size: 11px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 100%;
+   overflow: hidden;
+   padding-top: 13px;
+}
+.#footerVMW .wrapper
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   width: 960px;
+}
+.#footerVMW .logo
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 97px;
+   float: left;
+   height: 31px;
+   display: block;
+}
+.#footerVMW div.copyright
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   float: right;
+   text-align: right;
+   padding-top: 5px;
+}
+.#footerVMW div
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+}
+.#footerVMW a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   text-transform: uppercase;
+}
+.#footerVMW p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-top: 5px;
+}
+.#nav-social
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EDEDED;
+   margin: 0px 0px 0px 0px;
+   padding: 8px 8px 8px 8px;
+   width: 33px;
+   right: auto;
+   position: absolute;
+   left: -53px;
+   top: 249px;
+}
+.#nav-social ul
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+}
+.#nav-social li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+}
+.menu-item-share
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 5px 5px 5px 5px;
+   width: 32px;
+   float: none;
+   height: 32px;
+   text-align: center;
+   display: block  !important;
+}
+.#jive-body-layout-ls .jive-widget-container-small .jive-widget-freemarkerwidget
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 0px 0px 0px 0px;
+   margin-bottom: 0 !important;
+}
+.jive-widget-container-small .jive-widget-body ul li
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 10px  !important;
+}
+.keyInfoBox
+{
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 245px;
+   min-height: 100px;
+   margin-bottom: 20px;
+   line-height: 1.2em !important;
+}
+.keyInfoBoxTitle
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EBEBEB;
+   border-top: solid 1px #0095d3;
+   width: 255px;
+   border-bottom: solid 1px #0095d3;
+   height: 40px;
+   border-left: solid 20px #0095d3;
+}
+.keyInfoBox p
+{
+   font-size: 15px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: 15px;
+}
+.keyInfoBoxTitle p
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #0095D3;
+   background-color: transparent;
+   font-weight-bold:;
+}
+.keyInfoBox ul li a
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #717074;
+   background-color: transparent;
+}
+.showInfo
+{
+   font-size: 12px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #0095D3;
+   background-color: transparent;
+   padding: 8px 8px 8px 8px;
+   position: relative;
+   text-align: right;
+   margin-bottom: 7px;
+   line-height: 15px;
+   top: -10px;
+}
+.strong.subhead
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #717074;
+   background-color: transparent;
+}
+.pageHeader
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/breakout-session-pano-02.jpg);
+   height: 180px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderUS-regNow
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-sf-hero-registerNow-stage.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderUS-monReplay
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-sf-hero-mon-replay.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderUS-tuesStream
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-sf-hero-tues-stream.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderUS-tuesReplay
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-sf-hero-tues-replay.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderUS-prereg2015
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-sf-hero-preReg-2015.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderUS-endOfShow
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-sf-hero-showsEnd.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderEMEA
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-eu-hero-registerNow.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderEMEA-tuesStream
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-eu-hero-tues-stream.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderEMEA-tuesReplay
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-eu-hero-tues-replay.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderEMEA-wedsStream
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-eu-hero-weds-stream.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderEMEA-wedsReplay
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-eu-hero-weds-replay.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderEMEA-prereg2015
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-eu-hero-preReg-2015.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.pageHeaderEMEA-endOfShow
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: url(images/banner-eu-hero-showsEnd.jpg);
+   height: 170px;
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+.sectionHeader
+{
+   font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #003D79;
+   background-color: transparent;
+   margin: 14px 14px 14px 14px;
+   padding: 1.4em 1.4em 1.4em 1.4em;
+   width: 90%;
+   letter-spacing: -1px;
+   border-bottom: solid 2px #003d79;
+   height: 28px;
+   vertical-align: center;
+}
+.sectionHeader img
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   position: relative;
+   left: -20px;
+   vertical-align: middle;
+}
+.heroTitle
+{
+   font-size: 32px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #006990;
+   background-color: #FFFFFF;
+   width: 940px;
+   padding-left: 20px;
+   opacity: 0.9;
+   filter: alpha(opacity=90);
+   height: 50px;
+   padding-top: 20px !important;
+}
+.titleBlock
+{
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #0095D3;
+   background-color: #EBEBEB;
+   padding: 5px 5px 5px 5px;
+   width: 255px;
+}
+.vmw-content-med
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: 10px !important;
+}
+.vmw-list
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: 55px;
+   line-height: 1.1em;
+}
+.vmw-bullet
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   list-style-type: square !important;
+}
+.highlight
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #E28C05;
+   background-color: transparent;
+   margin-left: 20px;
+}
+.inset
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EBEBEB;
+   border: 0px #717074 none;
+   margin: 10px 10px 10px 10px;
+   padding: 5px 5px 5px 5px;
+   width: 235px;
+   float: right;
+}
+.insetText
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: 35px;
+}
+.imgPad
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #EBEBEB;
+   border: 0px #717074 none;
+   margin: 10px 10px 10px 10px;
+   padding: 15px 15px 15px 15px;
+   float: left;
+}
+.logo
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+   width: 120px;
+   margin-right: 7px;
+}
+.listIndent
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin-left: 25px;
+}
+.mapCenter
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 40px 40px 40px 40px;
+}
+.campusMap
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+   width: 620px;
+   margin-left: 50px;
+}
+.arrowRight
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+   height: 15px;
+   padding-right: 5px;
+   vertical-align: middle;
+}
+.sponsorDetails
+{
+   font-size: 16px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   text-align: right;
+}
+.imgPadding
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 10px;
+   padding-right: 52px;
+}
+.imgSponsorLogo
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   vertical-align: top;
+}
+.textTop
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   vertical-align: top;
+}
+.textTopBold
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 50%;
+   vertical-align: top;
+}
+.#pricingTable
+{
+   font-size: 19px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px #FFFFFF none;
+   width: 93%;
+   margin-left: 20px;
+   line-height: 1.25em;
+}
+.regPackageBlock
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #717074;
+   background-color: #EBEBEB;
+   padding: 10px 10px 10px 10px;
+   text-align: center: font-weight:bold;
+}
+.regPackage
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 10px 10px 10px 10px;
+   width: 150px;
+}
+.pricingPkg
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 10px 10px 10px 10px;
+   width: 100px;
+   text-align: center;
+}
+.pricingFeatured
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #006990;
+   padding: 10px 10px 10px 10px;
+   width: 100px;
+   text-align: center;
+}
+.pricingTableHeadings
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: #717074;
+}
+.pricingPeriod
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding: 10px 10px 10px 10px;
+   text-align: center;
+}
+.notes
+{
+   font-size: 16px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   margin: 20px 20px 20px 20px;
+   line-height: 1.2em;
+}
+.social-share
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   padding-left: 9px;
+}
+.twitter-share-button
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 95px !important;
+}
+.#___plusone_0
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   width: 80px !important;
+}
