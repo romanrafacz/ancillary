@@ -36,6 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'south',
+    'register',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -58,7 +60,7 @@ WSGI_APPLICATION = 'ancillary.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'acillary',
+        'NAME': 'ancillary',
         'USER': 'roman',
         'PASSWORD': 'snickers',
         'HOST': 'localhost',
