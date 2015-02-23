@@ -1,0 +1,1313 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ *
+ * Detailed information about this CSS: h5bp.com/css
+ *
+ * ==|== normalize ==========================================================
+ */
+
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+html, button, input, select, textarea { font-family: 'bentonsans-regular' , "Helvetica Neue" ,Helvetica, Arial, sans-serif; 
+	font-weight:400;
+   }
+
+body { margin: 0; font-size: .9em; line-height: 1.4; }
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: .9em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 11px; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
+ */
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+/*
+ * Correct overflow not hidden in IE9
+ */
+
+svg:not(:root) { overflow: hidden; }
+
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+figure { margin: 0; }
+
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* Indicate that 'label' will shift focus to the associated form element */
+label { cursor: pointer; }
+
+/*
+ * 1. Correct color not inheriting in IE6/7/8/9
+ * 2. Correct alignment displayed oddly in IE6/7
+ */
+
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ */
+
+button, input { line-height: normal; }
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ * 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
+ */
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { 
+	cursor: pointer; -webkit-appearance: button; *overflow: visible; 
+	/*width:54px;
+	height:14px;*/
+	}
+/*.largebutton {width:200px; height:14px;}*/
+
+
+/*
+ * Re-set default cursor for disabled elements
+ */
+
+button[disabled], input[disabled] { cursor: default; }
+
+/*
+ * Consistent box sizing and appearance
+ */
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+/*
+ * Remove inner padding and border in FF3/4: h5bp.com/l
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/*
+ * 1. Remove default vertical scrollbar in IE6/7/8/9
+ * 2. Allow only vertical resizing
+ */
+
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+/* Colors for form validity */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/* =============================================================================
+   Chrome Frame Prompt
+   ========================================================================== */
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+
+/* ==|== primary styles =====================================================
+   Author:
+   ========================================================================== */
+
+/*body { font-size: 13px; }*/
+
+html {	
+}
+
+body {
+    color: #57585a;
+    font-family: "BentonSans-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+
+button, input, select, textarea { font-size: 12px;}
+
+
+fieldset { border: 1px solid; padding: 10px; }
+label {text-align: left;
+
+}
+
+
+div#PageWrapper_01 {
+	/*height: 1230px;	 
+	margin: 0 auto;
+	max-width:1024px;
+	width:1000px;*/
+	width: 100%;
+		
+	/*background: url(images/BackgroundwFooter.png) no-repeat top center scroll;*/
+}
+
+div#Footer_01 {
+	margin: 0 auto;
+	padding:0;
+	clear:both;
+	height:400px;
+	/* height:600px; */
+	max-width:1438px;
+	background-color:white;
+	background: url(images/footer_2015.jpg) ;
+}
+
+
+input.entryLong, select.entryLong  {width:400px;}
+
+div#Content_01 {
+	margin: 0 auto;
+	padding:0;
+	clear:both;
+	/*height:560px;*/
+	/* height:600px; */
+	max-width:1000px;
+	background-color:white;
+	/*background: #192028 url(images/ui-bg_flat_75_192028_40x100.png) 50% 50% repeat-x;*/
+}
+
+#Header_01  {
+	min-height:225px;
+	margin-top:0; 
+	margin-right: auto;
+	margin-bottom:0;
+	margin-left:auto;
+	position:relative;
+	width:1000px; 
+}
+
+ul.passIncludes {margin-top:0;}
+p.passIncludes {margin-bottom:0;}
+
+
+/* Demandware css */
+/* ----------------------- */
+
+.site {position:relative;}
+
+#site-header  {
+    position: relative;
+    z-index: 3;
+}
+
+
+.header-main {
+	background: 	url(images/W_image_header.png) no-repeat 130px -16px;
+	min-height: 225px;
+	position:relative;
+	width:750px;
+	z-index:-1;
+	float:left;
+	/*margin-right:30px;*/
+}
+
+.header-link {
+	/*background: 	url(images/xchange15-2.png) no-repeat center center;*/
+
+ 	display: inline-block;
+ 	float:left;
+    z-index:1000;
+    height: 93px;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: left;
+    /*text-indent: -9999px;*/
+    width: 230px;
+	position: relative;
+	top: 25px; 
+	left: 30px;
+
+/*		position: absolute; 
+		top: 25px; 
+		left: 32px;
+		height:93px;
+		width:230px;
+*/		 
+}
+
+.site-header {
+    background-color: #231f20;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    color: #fff;
+    font-family: "AlternateGotNo3D","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    margin-bottom: 0;
+    min-height: 45px;
+    text-transform: uppercase;
+}
+.site-title {
+    font-size: 18px;
+    font-weight: 700;
+    left: -130px;
+    line-height: 48px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 35px;
+}
+.header-link-wrapper {
+    float: right;
+    /*margin-right: 55px;*/
+}
+.header-link-wrapper a {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #8bc74f;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #fff;
+    float: left;
+    font-family: 'URW' , 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height:17px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 2px;
+    margin-top: 0;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+.header-link-wrapper a:hover {
+    color: #363636;
+}
+
+.header-event-info {
+    left: 700px;
+    position: absolute;
+    top: 52px;
+}
+
+
+.header-info {
+    display: block;
+    font-family:   'URW', 'HelveticaNeueLTStdBd',  'Helvetica' , 'Arial' , 'Lucida Grande', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height:27px;
+    position: relative;
+    word-spacing: 4px;
+}
+
+.header-info .eventwhere {
+    color: #82bd41;
+    font-size: 24px;
+    font-family: 'URW', 'HelveticaNeueLTStdBd', 'Helvetica' , 'Arial' , 'Lucida Grande', sans-serif;
+    font-weight: 700;
+    border-image-width:1 1 1 1;
+    font-style:normal;
+}
+
+	/* Navigation */
+
+	.site-navigation li .current_page_item > a,
+	.site-navigation li .current_page_ancestor > a,
+	.site-navigation li .current-menu-item > a,
+	.site-navigation li .current-menu-ancestor > a {
+    font-family: 'URW', 'HelveticaNeueLTStdBd', 'Helvetica' , 'Arial' ,  sans-serif;
+	color: #fff;
+	}
+
+.menu-toggle {
+	background-color: #000;
+	border-radius: 0;
+	cursor: pointer;
+	font-size: 0;
+	height: 48px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	width: 48px;
+}
+
+.menu-toggle:before {
+	color: #fff;
+	content: "\f419";
+	display: inline;
+	margin-top: 16px;
+}
+
+.menu-toggle:active,
+.menu-toggle:focus,
+.menu-toggle:hover {
+	background-color: #444;
+}
+
+.menu-toggle:focus {
+	outline: 1px dotted;
+}
+
+
+	/* Primary Navigation */
+
+	.primary-navigation {
+		/*float: right;*/
+		font-size: 15px;
+		margin: 0 1px 0 0;
+		padding: 0;
+		text-transform: uppercase;
+		height: 30px;
+		
+	}
+
+
+	.primary-navigation .menu-toggle {
+		display: none;
+		padding: 0;
+	}
+
+	.primary-navigation .nav-menu {
+		border-bottom: 0;
+		display: block;
+		
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	.primary-navigation.toggled-on {
+		border-bottom: 0;
+		margin: 0;
+		padding: 0;	
+	}
+
+	.primary-navigation li {
+		border: 0;
+		display: inline-block;
+		/*height: 38px;
+		line-height: 38px;*/
+		position: relative;
+		margin-left: 20px;
+    	/*width: 170px;*/
+    	padding-top:7px;
+    	padding-bottom:5px;
+    	color:#fff;
+    	font-weight:normal;
+    }
+    
+    .primary-navigation li#menu-item-logo {
+		color:#fff;
+		text-decoration:none;
+		font-weight:normal;
+		margin-left:30px;
+		margin-right:400px;
+    }
+
+	.primary-navigation li#menu-item-24 a {
+		background: url(images/reg-button-small.png) repeat-y;
+		color:#fff;
+		text-decoration:none;
+		font-weight:normal;
+		outline: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		
+}
+
+	.primary-navigation a {
+		display: inline-block;
+		color:#fff;
+		padding: 0 12px;
+		white-space: nowrap;
+    	text-decoration:none;
+	    font-family: 'URW', 'HelveticaNeueLTStdBd', 'Helvetica' , 'Arial' ,  sans-serif;
+	}
+
+/*
+	.primary-navigation ul ul {
+*/
+		/*background-color: #333;*/
+/*
+		background: #000;
+		float: left;
+		margin: 0;
+		position: absolute;
+		top: 39px;
+		left: -999em;
+		z-index: 99999;
+		padding-top: 20px;
+		border-top:1px solid #000;
+		opacity: 0.9;
+		padding-bottom: 10px;
+	}
+	
+	.primary-navigation ul ul li {
+		margin-left: 0;
+		width: 100%;
+		background: #000;
+		opacity: 0.9;
+	}
+
+	.primary-navigation li li {
+		border: 0;
+		display: block;
+		height: auto;
+		line-height: 1.0909090909;
+	}
+
+	.primary-navigation ul ul ul {
+		left: -999em;
+		top: 0;
+	}
+
+	.primary-navigation ul ul a {
+		padding: 8px 12px;
+		white-space: normal;
+		width: 176px;
+	}
+*/
+
+	.primary-navigation li:hover > a,
+	.primary-navigation li.focus > a {
+		background-color: none;
+		color: #fff;
+		/*border:1px solid #fff;*/
+		outline:1px solid #fff;
+	}
+
+	.primary-navigation ul ul li:hover > a, .primary-navigation ul ul li.focus > a {
+		outline: none;
+		/*color: #e74d19;*/
+		color: #026bde;
+	}
+
+	.primary-navigation ul ul a:hover,
+	.primary-navigation ul ul li.focus > a {
+		background-color: #000;
+	}
+
+	.primary-navigation ul li:hover > ul,
+	.primary-navigation ul li.focus > ul {
+		left: -55px;
+	}
+
+	.primary-navigation ul ul li:hover > ul,
+	.primary-navigation ul ul li.focus > ul {
+		left: 100%;
+	}
+
+	.primary-navigation .menu-item-has-children > a,
+	.primary-navigation .page_item_has_children > a {
+		/*padding-right: 26px;*/
+	}
+
+	.primary-navigation .menu-item-has-children > a:after,
+	.primary-navigation .page_item_has_children > a:after {
+		-webkit-font-smoothing: antialiased;
+		/*content: "\f502";*/
+		display: inline-block;
+		font: normal 8px/1 Genericons;
+		position: absolute;
+		right: 12px;
+		top: 22px;
+		vertical-align: text-bottom;
+	}
+
+	.primary-navigation li .menu-item-has-children > a,
+	.primary-navigation li .page_item_has_children > a {
+		padding-right: 20px;
+		width: 168px;
+	}
+
+	.primary-navigation .menu-item-has-children li.menu-item-has-children > a:after,
+	.primary-navigation .menu-item-has-children li.page_item_has_children > a:after,
+	.primary-navigation .page_item_has_children li.menu-item-has-children > a:after,
+	.primary-navigation .page_item_has_children li.page_item_has_children > a:after {
+		content: "\f501";
+		right: 8px;
+		top: 20px;
+	}
+
+	.menu-main-menu-container {
+		min-height:38px;
+	}
+/* ----------------------- */
+/* END Demandware css */
+
+
+img#loginImg {
+	
+	/*float:right;
+	display:inline-block;
+	padding-right:20%;*/
+	
+	position:relative;
+	top:0;
+	left: 60%;	
+}
+
+
+
+
+#contact-linkXX  {
+		position: absolute; 
+		top: 0; 
+		left: 1049px; 
+		width: 81px; 
+		height: 24px; 
+		background-color: transparent; 
+		/*border: 1px solid red;*/ 
+}	
+
+div#datelocation {
+	background: 
+	url(images/Barcelona_Login.jpg) bottom left no-repeat;
+	width:233px;height: 25px;
+	margin:20px 0 20px 115px;
+}
+
+div#logBackIn {margin-left:600px;}
+
+/*div.ContentFrame {
+	height:460px;  margin:10px; background-color:white;
+}
+*/
+
+
+div#welcomeLeft , div#welcomeRight{display:inline-block;width:45%;}
+div#welcomeLeft{float:left;padding-left:30px;}
+div#welcomeRight {float:right;padding-right:30px;}
+div#welcomeLeft td, div#welcomeRight td  {padding-right:0;width:250px;}
+
+
+div.general  div.generalWelcome {
+	padding-top:15px;width:100%;margin: 0 auto;clear:both;padding-left:30px;
+}
+div.general  p.firstPara {
+	padding-left:30px;
+}
+
+div#eventLeft , div#eventRight{display:inline-block;width:48%;height:80px;}
+div#eventLeft{float:left;padding-left:30px;}
+div#eventRight {float:right;}
+div#eventLeft td, div#eventRight td  {padding-right:30px;width:150px;}
+div.general  div.generalEvent{
+	padding-top:15px;padding-left:30px;margin: 0 auto;clear:both;
+}
+ div.generalEvent td.label {padding-right:5px;width:540px;}
+
+td.eventLbl  {width:30px;}
+td.eventName {width:600px;}
+
+
+/*div#ccLeft{display:inline-block;}*/
+div#ccLeft{cleaar:both;margin-left:100px;}
+/*div#ccRight {float:right;padding-right:30px;}*/
+div#ccLeft td, div#ccRight td  {padding-left:5px;}
+div.general  div.generalCc{
+	padding-top:15px;width:90%;margin: 0 auto;clear:both;
+}
+
+div#ccLeft  td.label { width:200px;}
+div#ccLeft  td.editData  { width:200px;}
+
+div.preconGeneral {
+	padding:0 30px 0 30px;
+	margin: 0 auto;
+}
+
+/*div.preConLeft , div.preConRight{display:inline-block;width:45%;}*/
+div.preConLeft{padding-left:30px;display:block;}
+div.preConLeftNone{padding-left:30px;display:block;margin-top:40px;}
+/*div.preConRight {float:right;padding-right:30px;}*/
+div.preConLeft p, div.preConRight p {text-align:left;}
+div.preConLeft td, div.preConRight td  {}
+
+td.startstop {width:150px;text-align:right;padding-right:15px;}
+
+.actionbutton {padding-left:450px;}
+
+div > span {padding-top:15px; vertical-align:middle}
+.tooltip {
+	display:none;
+	padding: 10px 10px 10px 10px;
+	width:600px;height:400px;
+}
+
+
+div#haveAttended li {list-style-type:none;}
+
+div.general {
+	margin: 0 auto;clear:both;
+}
+
+div.general    div.general {
+	width:95%;margin: 0 auto;clear:both;
+}
+
+div.regGeneral {
+	padding:0 30px 0 30px;margin: 0 auto;
+}
+
+div.summaryGeneral {
+	padding-top:0;padding-left:30px;margin: 0 auto;
+}
+
+
+div.buttons {
+	padding-top:20px;width:90%;margin: 0 auto;clear:both;height:50px;
+}
+
+div.buttons button.buttonLeft {
+	float:left;
+}
+
+div.buttons button.buttonRight {
+	float:right;
+}
+
+button.buttonwidth, button.buttonRight, button.buttonLeft {width:122px;height:38px;font-size:100%;font-weight:700;}
+
+h3.pageTitle  , p.pageTitle { 
+	padding-left:30px; 
+	padding-top:30px;
+	color:#57585a;
+	font-size: 34px; 
+	font-family: "URW",Arial,"Lucida Grande",sans-serif;
+	text-transform: uppercase; 
+	font-weight:200;
+	margin-top:10px; 
+	}
+	
+div#infoAccordian h3 { 
+	font-family: "bentonsans-regular";
+	color:#fff; }
+	
+
+.rqdColor {color:red;font-weight:bolder;}
+.cta {color:red;}
+
+div#passwordRulesDiv {display:inline-block;float:left;width:40%;height:200px;padding-left:30px;font-size:100%;}
+div#passwordDiv {display:inline-block;float:right;border:2px solid black;width:48%;height:150px;padding:30px 10px 10px 10px;margin-right:30px;margin-top:20px;}
+form#passwordForm input {width:195px;}
+form#passwordForm td.label {width:150px;padding-right:10px;}
+
+.bold {font-weight:600;}
+
+
+#user  {padding-top:2px; padding-bottom:2px; width:45%; float:left; height:inherit;}
+#userInfo {width: 50%;  float:left; display: inline-block; height:inherit;}
+#selection {width: 50%;  float:left; display: inline-block; height:inherit;}
+#selection select {width:200px;}
+
+#Header_02  {
+	background: url(images/bm_rgb_373x32.png) no-repeat right center;
+	/*background-position: 780px 25px;*/
+	display: inline-block;
+	height:inherit;
+	width:45%;
+	float:right;
+
+}
+
+
+
+/* Login panel css */
+
+p.alreadyRegistered {text-align:right; padding-right:30px;}
+
+#logPanel {
+	clear: both;
+    float: right;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: -10px;
+    width: 290px;;
+}
+#login , #logout {
+ /* position: absolute;*/
+  /* top: 60px; */
+  /* right: 200px; */
+  padding-top: 5px;
+  width: 280px; 
+  text-align: right;
+  background-color: #fff;
+  clear:both;
+  margin: 0 auto;
+ 
+}
+
+
+
+#Footer {width:inherit; margin: 0 auto;
+/*background: url(images/footer.jpg) no-repeat top;*/ 
+background-color:white;
+height:85px;
+}
+
+#legalFooterDiv {
+	font-size:12px;
+	background-color:black;
+	width:inherit;
+	position: relative;
+	padding:0 ;
+	color:white;
+	/*background: url(images/Demandware-Footer-Logo.png) no-repeat top;*/
+	height:83px;	
+	max-width:1000px;
+	margin:0 auto;
+}
+
+.site-footer-bottom, .site-footer-bottom a {
+    color: #fff;
+    font-size: 13px;
+}
+.site-footer-bottom {
+    background-color: #25282a;
+}
+
+.site-footer-bottom .footerLogo {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.site-footer-bottom, .site-footer-bottom a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.col-md-16 {
+    width: 100%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-13, .col-md-14, .col-md-15, .col-md-16 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, .col-xs-13, .col-sm-13, .col-md-13, .col-lg-13, .col-xs-14, .col-sm-14, .col-md-14, .col-lg-14, .col-xs-15, .col-sm-15, .col-md-15, .col-lg-15, .col-xs-16, .col-sm-16, .col-md-16, .col-lg-16 {
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    width:100%;
+}
+.text-center {
+    text-align: center;
+}
+
+#box-link {
+		position: absolute; 
+		top: 32px; 
+		left: 838px; 
+		width: 40px; 
+		height: 20px; 
+		background-color: transparent; 
+		/*border: 1px solid yellow;*/ 
+}	
+
+#box-link2  {
+		position: absolute; 
+		top: 32px; 
+		left: 883px; 
+		width: 65px; 
+		height: 20px; 
+		background-color: transparent; 
+		/*border: 1px solid yellow;*/ 
+}	
+
+#legalFooterDiv a { color: #FCA331; }
+#legalFooterDiv a:visited { color: #FCA331; }
+#legalFooterDiv a:hover { color: #FCA331; }
+	
+#Footer #contactInfo {font-size:100%;width:70%;display:block;clear:both; padding-top:10px;margin: 0 auto;}	
+
+/*#Footer #urlInfo {font-size:76%;float:right; display:inline-block; padding-top:25px;padding-right:35px;}*/	
+
+div#Footer_01 {
+	text-align: center;
+	max-width:100%; 
+	margin: 0 auto;
+}
+
+div#Footer_01 h4 {
+	margin-top: 0;
+	font-size: .8em;
+}
+
+
+#ceileftdiv  {float:left ;width: 45%;}
+#ceirightdiv  {float:right ;width: 45%;}
+
+
+#contactEventApprovalData , #contactEventCommentsData {}
+#notesleftdiv {float:left ;width: 45%;}
+#notesrightdiv {float:right ;width: 45%;}
+
+p.hotelPara {color:#FCA331;font-weight:bolder;}
+
+#errContainer {
+	height: 180px;
+	margin-top: 10px;
+	top: 0;
+	left: 0;
+	color: #fff;
+	opacity: .50;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+table.cscTable {width:100%;}
+table.cscTable td{width:100%;}
+
+
+
+#login form {
+  margin-top: 10px;
+}
+
+#login form label, #login form input {
+  width: 250px;
+  display: block;
+  
+}
+
+#login form button {
+  float: right;
+  margin-top: 10px;
+}
+
+#login a , #logout a {
+  display: block;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: bold;
+  color: #003399;
+  height: 20px;
+  padding: 0 20px 0 5px;
+  background-position: right -20px;
+  background-repeat: no-repeat;
+}
+
+#login a.active {
+  background-position: right 0;
+}
+
+
+/* field widths */
+
+td.label {width:125px; padding-right: 10px; text-align:left; }
+table#pageOneQuestions td.label  {width:350px;}
+table.sharing td.label  {width:600px;}
+td.editData , td.editData > input , td.editData > select {width:185px; }
+
+table#contactEventFieldsData td.editData > input {width:600px; padding-right: 10px; padding-left: 10px; }
+table.specialEvents td.editData  {width:400px; }
+table.specialEvents td.label  {width:500px; }
+table.specialEvents td.editData  > input {width:20px; }
+table.specialEvents tr.bootCampRow td.eventName {width:900px;}
+table.specialEvents tr.companionInformation td.editData > input {width:400px;}
+table.specialEvents tr.companionInformation td.editData {width:400px;}
+table#hotelInfoTable td.editData  {width:600px; }
+table#hotelInfoTable td.editData  > input {width:20px; }
+/*table#demoQuestion td.editData, table.sharing td.editData  {width:600px; }*/
+table.sharing td.label  {width:500px; }
+table.sharing td.editData  {width:500px; }
+table#demoQuestion td.editData  > input,  table.sharing  td.editData > input {width:20px; }
+table.demoTimesTable td.demoDesc {width:500px;}
+table.demoTimesTable td.demoLabel {width:380px;}
+table.demoTimesTable select.demoSelect {width:380px;}
+input#customerAdaOther , input#customerMealOther {width:185px;}
+
+.summaryFormHeaderRow {
+	background: #82bd41 url("images/ui-bg_glass_75_82bd41_1x400.png") 50% 50% repeat-x;
+	color:#fff;
+}
+.infoPanel {
+	border:solid 1px;padding-left:20px;padding-right:20px;margin-bottom:20px;
+}
+.phonenumber {width:138px;}
+
+input.morningSession,input.afternoonSession,input.allDaySession, input.noSession  {margin-right:30px;vertical-align:middle;}
+input.haveAttendedRadio  {margin-right:5px;margin-left:30px;vertical-align:middle;}
+input.prereq  {margin-left:0;margin-right:30px;;vertical-align:middle;}
+
+.width10 {
+	width: 10px;
+}
+
+.width15 {
+	width: 15px;
+}
+
+
+.width25 {
+	width: 25px;
+}
+
+
+.width50 {
+	width: 50px;
+}
+
+.width60 {
+	width: 60px;
+}
+
+.width75 {
+	width: 75px;
+}
+
+.width85 {
+	width: 85px;
+}
+
+
+.width100 {
+	width: 100px;
+}
+
+.width125 {
+	width: 125px;
+}
+
+
+.width150 {
+	width: 150px;
+}
+
+.width160 {
+	width: 160px;
+}
+
+.width200 {
+	width: 200px;
+}
+
+.width250 {
+	width: 250px;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.width350 {
+	width: 350px;
+}
+
+.width400 {
+	width: 400px;
+}
+
+.width450 {
+	width: 450px;
+}
+
+.width500 {
+	width: 500px;
+}
+
+.width550 {
+	width: 550px;
+}
+
+.width600 {
+	width: 600px;
+}
+
+.width650 {
+	width: 650px;
+}
+
+.width700 {
+	width: 700px;
+}
+
+.width750 {
+	width: 750px;
+}
+
+.width800 {
+	width: 800px;
+}
+
+.width850 {
+	width: 850px;
+}
+
+.width900 {
+	width: 900px;
+}
+
+.width950 {
+	width: 950px;
+}
+
+.width1000 {
+	width: 1000px;
+}
+
+.centerAlign {
+	text-align: center;
+}
+
+.leftAlign {
+	text-align: left;
+}
+
+.rightAlign {
+	text-align: right;
+}
+
+form#summaryForm table {width:95%;}
+
+form#summaryForm th.leftAlign , form#summaryForm td.leftAlign {
+	padding-left:20px;
+}
+
+form#summaryForm th.rightAlign , form#summaryForm td.rightAlign {
+	padding-right:20px;
+}
+
+.rightAlignRadio {
+	text-align: right;
+	padding-right:30px;
+}
+
+.italics {font-style:italic;}
+
+
+
+label.error {
+	list-style-type: none;
+    color: #11AB5E;
+	font-weight: normal;
+
+/*	border-color:red;
+	border-style:solid;
+	border-width: 3px;
+   color: rgb(218 , 33 ,28);
+	color: blue;
+*/
+	opacity: .95;
+	display:block;
+}
+
+
+div.generalWelcome label.error  span.errorMessage {
+	/*padding-left: 330px;*/
+}
+
+
+
+ul.ui-autocomplete {z-index:9999;}
+
+input, select, textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+/* over rides for IE */
+
+.lt-ie9 #loginform , .lt-ie9 #selection {border: 1px solid #DDDDDD; }
+.lt-ie9 #login, .lt-ie9 #logout {
+	right: 40px;
+}
+.lt-ie8 #login, .lt-ie8 #logout {
+	right: 200px;
+}
+
+
+ .ui-autocomplete-loading {
+background: white url('images/tabspinner.gif') right center no-repeat;
+ }
+
+
+
+/* ==|== media queries ======================================================
+   EXAMPLE Media Query for Responsive Design.
+   This example overrides the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}

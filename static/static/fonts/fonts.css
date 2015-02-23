@@ -1,0 +1,104 @@
+/*
+@font-face {
+font-family: 'BentonSans-regular';
+src: url('../fonts/BentonSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/BentonSans-Regular.otf') format('opentype'),
+url('../fonts/BentonSans-Regular.woff') format('woff'), url('../fonts/BentonSans-Regular.ttf') format('truetype'), url('../fonts/BentonSans-Regular.svg#BentonSans-Regular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+*/
+@font-face {
+		font-family: 'bentonsans-regular';
+		src: url('BentonSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('BentonSans-Regular.otf') format('opentype') , 
+		url('BentonSans-Regular.woff') format('woff'), 
+		url('BentonSans-Regular.ttf') format('truetype'), 
+		url('BentonSans-Regular.svg#BentonSans-Regular') format('svg');
+		;
+		font-weight: normal;
+		font-style: normal;
+}
+
+/*
+@font-face {
+font-family: 'BentonSans-Bold';
+src: url('../fonts/BentonSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/BentonSans-Bold.otf') format('opentype'),
+url('../fonts/BentonSans-Bold.woff') format('woff'), url('../fonts/BentonSans-Bold.ttf') format('truetype'), url('../fonts/BentonSans-Bold.svg#BentonSans-Bold') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+*/
+@font-face {
+		font-family: 'bentonsans-bold';
+		src: url('BentonSans-Bold.eot?#iefix') format('embedded-opentype'), 
+		url('BentonSans-Bold.otf') format('opentype'),
+		url('BentonSans-Bold.woff') format('woff'), 
+		url('BentonSans-Bold.ttf') format('truetype'), 
+		url('BentonSans-Bold.svg#BentonSans-Bold') format('svg');
+		font-weight: bold;
+		font-style: normal;
+}
+
+/*
+@font-face {
+font-family: 'AlternateGotNo3D';
+src: url('../fonts/AlternateGotNo3D.eot?#iefix') format('embedded-opentype'), url('../fonts/AlternateGotNo3D.otf') format('opentype'),
+url('../fonts/AlternateGotNo3D.woff') format('woff'), url('../fonts/AlternateGotNo3D.ttf') format('truetype'), url('../fonts/AlternateGotNo3D.svg#AlternateGotNo3D') format('svg');
+font-weight: normal;
+font-style: normal;
+} 
+*/
+
+
+
+@font-face {
+		font-family: 'URW';
+		src: url('AlternateGotNo3D.otf') format('opentype');
+		src: url('AlternateGotNo3D.eot?#iefix') format('embedded-opentype'), 
+		url('AlternateGotNo3D.otf') format('opentype'),
+		url('AlternateGotNo3D.woff') format('woff'), 
+		url('AlternateGotNo3D.ttf') format('truetype'), 
+		url('AlternateGotNo3D.svg#AlternateGotNo3D') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'HelveticaNeue-Light';
+		src: url('HelveticaNeueLTStd-Md.otf');
+}
+
+@font-face {
+		font-family: 'HelveticaNeueLTStdBd'  ;
+		src: url('HelveticaNeueLTStd-Bd.otf');
+}
+
+@font-face {
+		font-family: 'HelveticaNeueLTStdIt';
+		src: url('HelveticaNeueLTStd-It.otf');
+}
+
+@font-face {
+		font-family: 'HelveticaNeueLTStdth';
+		src: url('HelveticaNeueLTStd-Th.otf');
+}
+
+@font-face {
+		font-family: 'Oswald-Bold'  ;
+		src: url( 'Oswald-Bold.ttf'  )   ;
+}
+
+@font-face {
+		font-family: 'Oswald-Light'   ;
+		src: url( 'Oswald-Light.ttf' ) ;
+}
+
+@font-face {
+		font-family: 'Oswald-Regular'  ;
+		src: url( 'Oswald-Regular.ttf'  )   ;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("Raleway-Thin.ttf") format("truetype");
+}

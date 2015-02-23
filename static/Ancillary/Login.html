@@ -1,0 +1,159 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['form_name'] == 'loginform')
+{
+   $success_page = '';
+   $error_page = basename(__FILE__);
+   $database = './usersdb.php';
+   $crypt_pass = md5($_POST['password']);
+   $found = false;
+   $fullname = '';
+   $session_timeout = 600;
+   if(filesize($database) > 0)
+   {
+      $items = file($database, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+      foreach($items as $line)
+      {
+         list($username, $password, $email, $name, $active) = explode('|', trim($line));
+         if ($username == $_POST['username'] && $active != "0" && $password == $crypt_pass)
+         {
+            $found = true;
+            $fullname = $name;
+         }
+      }
+   }
+   if($found == false)
+   {
+      header('Location: '.$error_page);
+      exit;
+   }
+   else
+   {
+      if (session_id() == "")
+      {
+         session_start();
+      }
+      $_SESSION['username'] = $_POST['username'];
+      $_SESSION['fullname'] = $fullname;
+      $_SESSION['expires_by'] = time() + $session_timeout;
+      $_SESSION['expires_timeout'] = $session_timeout;
+      $rememberme = isset($_POST['rememberme']) ? true : false;
+      if ($rememberme)
+      {
+         setcookie('username', $_POST['username'], time() + 3600*24*30);
+         setcookie('password', $_POST['password'], time() + 3600*24*30);
+      }
+      header('Location: '.$success_page);
+      exit;
+   }
+}
+$username = isset($_COOKIE['username']) ? $_COOKIE['username'] : '';
+$password = isset($_COOKIE['password']) ? $_COOKIE['password'] : '';
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 10 Trial Version - http://www.wysiwygwebbuilder.com">
+<style type="text/css">
+body
+{
+   background-color: #696969;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+#Login1
+{
+   background-color: #EEEEEE;
+   border-color:#878787;
+   border-width:1px;
+   border-style: solid;
+   color: #000000;
+   border-spacing: 4px;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: right;
+   width: 261px;
+   height: 130px;
+}
+.Login1_header
+{
+   background-color: #878787;
+   color: #FFFFFF;
+   text-align: center;
+}
+.Login1_input
+{
+   background-color: #FFFFFF;
+   border-color: #878787;
+   border-width: 1px;
+   border-style: solid;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   width: 100px;
+   height: 18px;
+}
+.Login1_button
+{
+   background-color: #FFFFFF;
+   border-color: #878787;
+   border-width: 1px;
+   border-style: solid;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   width: 70px;
+   height: 20px;
+}
+</style>
+</head>
+<body>
+<a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb10.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;border-width:0;z-index:250"></a>
+<div id="wb_Login1" style="position:absolute;left:20px;top:17px;width:261px;height:130px;text-align:right;z-index:1;">
+<form name="loginform" method="post" action="<?php echo basename(__FILE__); ?>" id="loginform">
+<input type="hidden" name="form_name" value="loginform">
+<table id="Login1">
+<tr>
+   <td class="Login1_header" colspan="2" style="height:20px;">Log In</td>
+</tr>
+<tr>
+   <td style="height:20px;width:108px">User Name:</td>
+   <td style="text-align:left"><input class="Login1_input" name="username" type="text" id="username" value="<?php echo $username; ?>"></td>
+</tr>
+<tr>
+   <td style="height:20px">Password:</td>
+   <td style="text-align:left"><input class="Login1_input" name="password" type="password" id="password" value="<?php echo $password; ?>"></td>
+</tr>
+<tr>
+   <td>&nbsp;</td><td style="text-align:left;height:20px"><input id="rememberme" type="checkbox" name="rememberme">Remember me</td>
+</tr>
+<tr>
+   <td>&nbsp;</td><td style="text-align:left;vertical-align:bottom"><input class="Login1_button" type="submit" name="login" value="Log In" id="login"></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
