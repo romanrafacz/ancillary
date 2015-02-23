@@ -7,3 +7,6 @@ def index(request):
 
 def register(request):
     return render(request, 'register/register.html', {})
+
+def newaccount(request):
+    return render(request, 'register/newaccount.html', {})
