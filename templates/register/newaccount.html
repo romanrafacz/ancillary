@@ -2,14 +2,15 @@
 
 {% block content %}
 
-<!-- <form method="POST" action="">
+<!-- this works/trying crispy forms
+<form method="POST" action="/register/check_email/">
     {% csrf_token %}
     {{new_account.email.label}}&nbsp{{new_account.email}}</br>
     {{new_account.confirm_email.label}}&nbsp{{new_account.confirm_email}}</br>
     <input type="submit" value="submit">
 
-</form> -->
+</form> --> 
+
     {% load crispy_forms_tags %}
     {% crispy new_account new_account.helper %}
-
 {% endblock %}

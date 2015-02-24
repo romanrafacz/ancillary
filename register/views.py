@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
 from register.forms import RegisterForm, EmailForm, PasswordForm
 
@@ -15,6 +16,15 @@ def newaccount(request):
     return render(request, 'register/newaccount.html', {'new_account':new_account})
 
 def check_email(request):
+    email_form = EmailForm(data=request.POST)
+    if request.method == "POST":
+        email1 = request.POST['email']
+        email2 = request.POST['confirm_email']
+        if email1 == email2:
+            return HttpResponse("pass")
+        else:
+            return HttpResponse('no match')
+
     account_form = RegisterForm()
     return render(request, 'register/userinfo.html', {'account_form': account_form})
 
