@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'request',
     'manager',
     'login',
+    'crispy_forms',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -95,3 +96,5 @@ STATICFILES_DIRS = (
 )
 
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap'

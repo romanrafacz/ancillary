@@ -13,3 +13,6 @@ def register(request):
 def newaccount(request):
     new_account = RegisterForm()
     return render(request, 'register/newaccount.html', {'new_account':new_account})
+
+def check_email(request):
+    return render(request, 'register/userinfo.html', {})
