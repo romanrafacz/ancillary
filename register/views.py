@@ -16,14 +16,16 @@ def newaccount(request):
     return render(request, 'register/newaccount.html', {'new_account':new_account})
 
 def check_email(request):
-    email_form = EmailForm(data=request.POST)
+    new_account= EmailForm()
     if request.method == "POST":
         email1 = request.POST['email']
         email2 = request.POST['confirm_email']
         if email1 == email2:
-            return HttpResponse("pass")
+            account_form = RegisterForm()
+            return render(request, 'register/userinfo.html', {'account_form': account_form})
         else:
-            return HttpResponse('no match')
+            message = "emails do not match"
+            return render(request, 'register/newaccount.html', {'new_account': new_account, 'message':message})
 
     account_form = RegisterForm()
     return render(request, 'register/userinfo.html', {'account_form': account_form})

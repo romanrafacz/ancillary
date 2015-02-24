@@ -35,6 +35,8 @@ class EmailForm(forms.Form):
         self.helper.form_class = 'form-inline'
         self.helper.form_methog = 'post'
         self.helper.form_action = '/register/check_email/'
+        self.helper.form_show_errors=True
+        self.helper.form_error_title= 'emails do not match'
         self.helper.add_input(Submit('submit', 'Submit'))
     
     email = forms.EmailField(label='please enter email address', max_length=75, error_messages={'required': 'Please enter a valid email'})
