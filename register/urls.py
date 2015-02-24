@@ -4,5 +4,5 @@ from register import views
 
 urlpatterns = patterns('',
         url(r'^$', views.index, name='index'),
-        url(r'^register/newaccount/$', views.newaccount),
+        url(r'^newaccount/$', views.newaccount, name='newaccount'),
 )
