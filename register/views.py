@@ -25,3 +25,6 @@ def confirm_data(request):
 def final_signup(request):
     password_form = PasswordForm()
     return render(request, 'register/final_signup.html', {'password_form':password_form})
+
+def submit_form(request):
+    return render(request, 'register/submit_form.html', {})
