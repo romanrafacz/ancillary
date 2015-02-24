@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="" methods="post">
+{% load crispy_form_tags %}
+{% crispy account_form account_form.helper %}
+<input type="submit" value="confirm">
+</form>
+
+
+{% endblock %}

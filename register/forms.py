@@ -7,15 +7,12 @@ class RegisterForm(forms.Form):
     def __init__(self, *args, **kwargs):
         super(RegisterForm, self).__init__(*args, **kwargs)
         self.helper = FormHelper()
-        self.helper.form_id = 'id-example-form'
-        self.helper.form_class = 'blueForms'
-        self.helper.form_method = 'post'
-        self.helper.form_action = 'check_email'
+        #self.helper.form_id = 'id-example-form'
+        #self.helper.form_class = 'form-inline'
+        #self.helper.form_method = 'post'
+        #self.helper.form_action = '/register/confirm_data/'
+        #self.helper.add_input(Submit('submit', 'Submit'))
 
-
-
-    email = forms.EmailField(label='please enter email address', max_length=75, error_messages={'required': 'Please enter a valid email'})
-    confirm_email = forms.EmailField(label='please confirm email address', max_length=75)
     first_name = forms.CharField(label='First Name', max_length=50)
     last_name = forms.CharField(label='Last Name', max_length=50)
     job_title = forms.CharField(label='Job Title', max_length=50)
@@ -29,5 +26,29 @@ class RegisterForm(forms.Form):
     phone = forms.CharField(label='Phone', max_length=20)
     mobile= forms.CharField(label='Mobile Phone', max_length=20, required=False)
     cc_email = forms.EmailField(label='CC Email', required=False)
-    password = forms.CharField(label='password', max_length=10)
+
+class EmailForm(forms.Form):
+    def __init__(self, *args, **kwargs):
+        super(EmailForm, self).__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.form_id = 'id-example-form'
+        self.helper.form_class = 'form-inline'
+        self.helper.form_methog = 'post'
+        self.helper.form_action = '/register/check_email/'
+        self.helper.add_input(Submit('submit', 'Submit'))
     
+    email = forms.EmailField(label='please enter email address', max_length=75, error_messages={'required': 'Please enter a valid email'})
+    confirm_email = forms.EmailField(label='please confirm email address', max_length=75)
+
+class PasswordForm(forms.Form):
+    def __init__(self, *args, **kwargs):
+        super(PasswordForm, self).__init__(*args, **kwargs)
+        self.helper = FormHelper()
+        self.helper.form_id = 'id-example-form'
+        self.helper.form_class = 'form-inline'
+        self.helper.form_method = 'post'
+        self.helper.form_action = '/register/submit_form/'
+        self.helper.add_input(Submit('submit', 'Submit'))
+
+    password = forms.CharField(label='Password', max_length=15)
+    confirm_password = forms.CharField(label='Confirm Password', max_length=15)
