@@ -1,0 +1,71 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
+<link href="{% static 'css/jquery.ui.all.css' %}" rel="stylesheet">
+<link href="{% static 'css/AncillaryWeb.css' %}" rel="stylesheet">
+<link href="{% static 'css/RequestPortal.css' %}" rel="stylesheet">
+<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+<script src="{% static 'js/jquery.ui.core.min.js' %}"></script>
+<script src="{% static 'js/jquery.ui.widget.min.js' %}"></script>
+<script src="{% static 'js/jquery.ui.accordion.min.js' %}"></script>
+<script src="{% static 'js/jquery.ui.mouse.min.js' %}"></script>
+<script src="{% static 'js/jquery.ui.sortable.min.js' %}"></script>
+<script src="{% static 'js/jquery.ui.tabs.min.js' %}"></script>
+<script>
+$(document).ready(function()
+{
+   var jQueryAccordion1Opts =
+   {
+      event: 'click',
+      animate: 'linear',
+      header: 'h3',
+      heightStyle: 'fill'
+   };
+   $("#jQueryAccordion1").accordion(jQueryAccordion1Opts);
+   var jQueryTabs1Opts =
+   {
+      show: false,
+      event: 'click',
+      collapsible: false
+   };
+   $("#jQueryTabs1").tabs(jQueryTabs1Opts);
+   var jQueryTabs2Opts =
+   {
+      show: false,
+      event: 'click',
+      collapsible: false
+   };
+   $("#jQueryTabs2").tabs(jQueryTabs2Opts);
+   var jQueryTabs3Opts =
+   {
+      show: false,
+      event: 'click',
+      collapsible: false
+   };
+   $("#jQueryTabs3").tabs(jQueryTabs3Opts);
+   var jQueryTabs4Opts =
+   {
+      show: false,
+      event: 'click',
+      collapsible: false
+   };
+   $("#jQueryTabs4").tabs(jQueryTabs4Opts);
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="Layer1" style="position:absolute;text-align:center;left:0%;top:0px;width:100%;height:118px;z-index:393;">
+<div id="Layer1_Container" style="width:800px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Image4" style="position:absolute;left:52px;top:37px;width:272px;height:40px;z-index:0;">
+    <img src="{% static 'images/logo-2015-white.png' %}" id="Image4" alt=""></div>
+<div id="wb_Image6" style="position:absolute;left:672px;top:37px;width:67px;height:18px;z-index:1;">
+    <a href="/"><img src="{% static 'images/LOGOUT.png' %}" id="Image6" alt=""></a></div>
+</div>
+</div>
+</body>
+</html>
