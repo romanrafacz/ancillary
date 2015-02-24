@@ -27,8 +27,8 @@ def check_email(request):
             message = "emails do not match"
             return render(request, 'register/newaccount.html', {'new_account': new_account, 'message':message})
 
-    account_form = RegisterForm()
-    return render(request, 'register/userinfo.html', {'account_form': account_form})
+    #account_form = RegisterForm()
+    #return render(request, 'register/userinfo.html', {'account_form': account_form})
 
 def confirm_data(request):
     account_form = RegisterForm()
