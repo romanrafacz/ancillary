@@ -7,11 +7,11 @@ class RegisterForm(forms.Form):
     def __init__(self, *args, **kwargs):
         super(RegisterForm, self).__init__(*args, **kwargs)
         self.helper = FormHelper()
-        #self.helper.form_id = 'id-example-form'
-        #self.helper.form_class = 'form-inline'
-        #self.helper.form_method = 'post'
-        #self.helper.form_action = '/register/confirm_data/'
-        #self.helper.add_input(Submit('submit', 'Submit'))
+        self.helper.form_id = 'id-example-form'
+        self.helper.form_class = 'form-inline'
+        self.helper.form_method = 'post'
+        self.helper.form_action = '/register/confirm_data/'
+        self.helper.add_input(Submit('submit', 'Submit'))
 
     first_name = forms.CharField(label='First Name', max_length=50)
     last_name = forms.CharField(label='Last Name', max_length=50)
