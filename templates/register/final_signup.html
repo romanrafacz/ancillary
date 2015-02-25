@@ -2,6 +2,16 @@
 
 {% block content %}
 
+<div>
+    <h2>Set password</h2>
+    <p>Please use the following criteria when creating password</p>
+    <ol>
+        <li>Be at least 8 characters long</li>
+        <li>Contain at least 1 numeric value (zero '0' - nine '9'</li>
+        <li>Contain 1 uppercase</li>
+    <ol>
+
+
 {% load crispy_forms_tags %}
 {% crispy password_form password_form.helper %}
 

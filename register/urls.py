@@ -9,4 +9,5 @@ urlpatterns = patterns('',
         url(r'^confirm_data/$', views.confirm_data, name='confirm_data'),
         url(r'^final_signup/$', views.final_signup, name='final_signup'),
         url(r'^submit_form/$', views.submit_form, name='submit_form'),
+        url(r'^user_data/$', views.user_data, name='user_data'),
 )

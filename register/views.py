@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 
 from register.forms import RegisterForm, EmailForm, PasswordForm
@@ -21,8 +21,7 @@ def check_email(request):
         email1 = request.POST['email']
         email2 = request.POST['confirm_email']
         if email1 == email2:
-            account_form = RegisterForm()
-            return render(request, 'register/userinfo.html', {'account_form': account_form})
+            return redirect('/register/user_data')
         else:
             message = "emails do not match"
             return render(request, 'register/newaccount.html', {'new_account': new_account, 'message':message})
@@ -30,8 +29,12 @@ def check_email(request):
     #account_form = RegisterForm()
     #return render(request, 'register/userinfo.html', {'account_form': account_form})
 
-def confirm_data(request):
+def user_data(request):
     account_form = RegisterForm()
+    return render(request, 'register/userinfo.html', {'account_form': account_form})
+
+def confirm_data(request):
+    account_form = RegisterForm(data=request.POST)
     return render(request, 'register/confirm_data.html', {'account_form': account_form})
 
 def final_signup(request):
