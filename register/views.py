@@ -48,14 +48,17 @@ def final_signup(request):
     return render(request, 'register/final_signup.html', {'password_form':password_form})
 
 def submit_form(request):
-    if (request.method == "POST") and (password_form.valid()):
+    password_form = PasswordForm(data=request.POST)
+    if request.method == "POST" and password_form.is_valid():
         if request.POST['password'] == request.POST['confirm_password']:
-            return redirect('/register/submit_form')
+            return redirect('/register/confirmation_page')
         else:
             password_form = PasswordForm()
             message = "password do not match"
             return render(request, 'register/final_signup.html', {'password_form':password_form, 'message':message})
+    else:
+        return render(request, 'register/final_signup.html', {'password_form':password_form})
     #return render(request, 'register/submit_form.html', {})
 
-def submit_form(request):
+def confirmation_page(request):
     return render(request, 'register/submit_form.html', {})

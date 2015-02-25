@@ -10,5 +10,5 @@ urlpatterns = patterns('',
         url(r'^final_signup/$', views.final_signup, name='final_signup'),
         url(r'^submit_form/$', views.submit_form, name='submit_form'),
         url(r'^user_data/$', views.user_data, name='user_data'),
-        url(r'^submit_form/$', views.submit_form, name='submit_form'),
+        url(r'^confirmation_page/$', views.confirmation_page, name='confirmation_page'),
 )
