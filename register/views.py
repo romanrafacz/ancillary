@@ -51,7 +51,9 @@ def submit_form(request):
     password_form = PasswordForm(data=request.POST)
     if request.method == "POST" and password_form.is_valid():
         if request.POST['password'] == request.POST['confirm_password']:
-            return redirect('/register/confirmation_page')
+            #myemail = request.POST['password']
+            myemail = password_form['password']
+            return render(request, 'register/submit_form.html', {'myemail':myemail})
         else:
             password_form = PasswordForm()
             message = "password do not match"
@@ -61,4 +63,5 @@ def submit_form(request):
     #return render(request, 'register/submit_form.html', {})
 
 def confirmation_page(request):
-    return render(request, 'register/submit_form.html', {})
+    myemail = request.POST['password']
+    return render(request, 'register/submit_form.html', {'myemail':myemail})
