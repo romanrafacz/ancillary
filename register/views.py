@@ -42,4 +42,13 @@ def final_signup(request):
     return render(request, 'register/final_signup.html', {'password_form':password_form})
 
 def submit_form(request):
+    if (request.method == "POST") and (request.POST['password'] == request.POST['confirm_password']):
+        return redirect('/register/submit_form')
+    else:
+        password_form = PasswordForm()
+        message = "password do not match"
+        return render(request, 'register/final_signup.html', {'password_form':password_form, 'message':message})
+    return render(request, 'register/submit_form.html', {})
+
+def submit_form(request):
     return render(request, 'register/submit_form.html', {})
