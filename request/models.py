@@ -14,4 +14,4 @@ class Room_Details(models.Model):
     end_time = models.TimeField()
     attendance = models.IntegerField('Attendance', blank=True)
     est_budget = models.CharField('Est Budge', max_length=15, blank=True)
-    seupt_style = models.CharField('Setup Style', max_length=50, blank=True)
+    setup_style = models.CharField('Setup Style', max_length=50, blank=True)
