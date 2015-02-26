@@ -16,7 +16,7 @@ class RegisterForm(forms.Form):
     first_name = forms.CharField(label='First Name', max_length=50)
     last_name = forms.CharField(label='Last Name', max_length=50)
     job_title = forms.CharField(label='Job Title', max_length=50)
-    comany = forms.CharField(label='Company', max_length=50)
+    company = forms.CharField(label='Company', max_length=50)
     billing_address = forms.CharField(label='Billing Address', max_length=50)
     billing_address2 = forms.CharField(label='Billing Address 2', max_length=50, required=False)
     country = forms.CharField(label='Country', max_length=20)
@@ -26,6 +26,14 @@ class RegisterForm(forms.Form):
     phone = forms.CharField(label='Phone', max_length=20)
     mobile= forms.CharField(label='Mobile Phone', max_length=20, required=False)
     cc_email = forms.EmailField(label='CC Email', required=False)
+
+
+#subclass to take out the form fields and only display data in confirm page(register app)
+class ReadOnlyForm(RegisterForm):
+    def __init__(self, *args, **kwargs):
+        super(ReadOnlyForm, self).__init__(*args, **kwargs)
+        for field in self.fields.values():
+            field.widget.attrs['disabled'] = 'true'
 
 class EmailForm(forms.Form):
     def __init__(self, *args, **kwargs):

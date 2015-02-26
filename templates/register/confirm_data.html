@@ -1,12 +1,24 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div>
+    <h2>Confirmation Page: is the data below correct?</h2>
+    <ul>
+        <p><label>Last Name</label>: {{form.lastname}}</p>
+        <p><label>First Name</label>: {{form.firstname}}</p>
+        <p><label>Job Title</label>: {{form.job_title}}</p>
+        <p><label>Company</label>: {{form.company}}</p>
+        <p><label>Billing Address</label>: {{form.billing_address}}</p>
+        <p><label>Billing Address2</label>: {{form.billing_address2}}</p>
+        <p><label>country</label>: {{form2.country}}</p>
+        <p><label>city</label>: {{form2.city}}</p>
+        <p><label>zip</label>: {{form2.zip}}</p>
+        <p><label>phone</label>: {{form2.phone}}</p>
+        <p><label>mobile</label>: {{form2.mobile}}</p>
+        <p><label>cc_email</label>: {{form2.cc_email}}</p>
+    </ul>
+<div>
 
-{% for field in account_form %}
-{{field.label}}&nbsp{{field}}</br>
-{% endfor %}
-confirmation page</br>
-List all the data here, edit or confim buttons</br>
-<a href="/register/final_signup/">confirm</a>
+    <a href="/register/final_signup"><button>Confirm</button></a>
 
 {% endblock %}
