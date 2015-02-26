@@ -38,6 +38,7 @@ def user_data(request):
 
 def confirm_data(request):
     account_form = RegisterForm(data=request.POST)
+    new_account = EmailForm(data=request.POST)
     if request.method == "POST" and account_form.is_valid():
 
         # Initialize all values to be passed to confirm page
@@ -54,10 +55,11 @@ def confirm_data(request):
         phone = account_form.cleaned_data['phone']
         mobile = account_form.cleaned_data['mobile']
         cc_email = account_form.cleaned_data['cc_email']
+        email = new_account['email']
 
         ### created values to pass to confirmation page - may need a subclass that strips form of fields.  TBD
         form = { 'lastname': lastname, 'firstname': 'roman', 'job_title': job_title, 'company': company, 'billing_address': billing_address, 'billing_address2': billing_address } 
-        form2 = { 'country': country, 'city': city, 'state':state, 'zip': zip, 'phone': phone, 'mobile': mobile, 'cc_email': cc_email }
+        form2 = { 'country': country, 'city': city, 'state':state, 'zip': zip, 'phone': phone, 'mobile': mobile, 'cc_email': cc_email, 'email':email}
         return render(request, 'register/confirm_data.html', {'account_form': account_form, 'form':form, 'form2':form2})
     else:
         account_form = RegisterForm()
