@@ -19,7 +19,11 @@
          <script src="{% static 'js/jquery.ui.tabs.min.js' %}"></script>
          <script>
              $(function(){
-                 $('#datepicker').datepicker({dateFormat: 'yy-mm-dd'});
+                 $('#meetingForm').accordion({
+                     create: function() { 
+                     $('.datepicker').datepicker({dateFormat: 'yy-mm-dd'});
+                 }
+             });
              });
          </script>
 <script>

@@ -7,3 +7,6 @@ from request.forms import RoomDetailsForm
 def index(request):
     room_form = RoomDetailsForm()
     return render(request, 'request/index.html', {'room_form':room_form})
+
+def submit_request(request):
+    return render(request, 'request/submit_success.html', {})
