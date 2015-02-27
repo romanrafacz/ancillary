@@ -14,7 +14,14 @@
 <script src="{% static 'js/jquery.ui.accordion.min.js' %}"></script>
 <script src="{% static 'js/jquery.ui.mouse.min.js' %}"></script>
 <script src="{% static 'js/jquery.ui.sortable.min.js' %}"></script>
-<script src="{% static 'js/jquery.ui.tabs.min.js' %}"></script>
+         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+                 <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+         <script src="{% static 'js/jquery.ui.tabs.min.js' %}"></script>
+         <script>
+             $(fucntion(){
+                 $('#datepicker').datepicker({dateFormat: 'yy-mm-dd'});
+             });
+         </script>
 <script>
 $(document).ready(function()
 {
@@ -56,6 +63,14 @@ $(document).ready(function()
    $("#jQueryTabs4").tabs(jQueryTabs4Opts);
 });
 </script>
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+ <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+ <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+ <script>
+     $(function() {
+         $("#meetingForm").accordion();
+     });
+ </script>
 </head>
 <body>
 <div id="container">

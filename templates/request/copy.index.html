@@ -1,0 +1,76 @@
+{% extends 'vm_base.html' %}
+
+{% block content %}
+
+<!-- conteainer for the contenct block -->
+<hr id="Line1" style="position:absolute;left:1px;top:120px;width:800px;height:1px;z-index:390;">
+<div id="Layer2" style="position:absolute;text-align:left;left:2px;top:118px;width:801px;height:858px;z-index:391;">
+<button id="AdvancedButton1" type="button" style="position:absolute;left:24px;top:57px;width:204px;height:34px;z-index:101;" name="" value="">
+    <div style="text-align:center"><span style="color:#CED1D6;font-family:Arial;font-size:13px"><b>Submit New Request</b></span></div>
+</button>
+    
+
+<div id="wb_jQueryAccordion1" style="position:absolute;left:24px;top:130px;width:763px;height:547px;z-index:102;">
+<div id="jQueryAccordion1">
+<h3>Meeting 1 - details and status</h3>
+<div>
+<div id="jQueryTabs1" style="position:absolute;left:9px;top:10px;width:726px;height:350px;z-index:28;">
+<ul>
+<li><a href="#jquerytabs1-page-0"><span>Room Details</span></a></li>
+<li><a href="#jquerytabs1-page-1"><span>A/V</span></a></li>
+<li><a href="#jquerytabs1-page-2"><span>Food and Beverage</span></a></li>
+<li><a href="#jquerytabs1-page-3"><span>Billing</span></a></li>
+<li><a href="#jquerytabs1-page-4"><span>Messaging</span></a></li>
+</ul>
+<div style="height:260px;overflow:auto;padding:0;" id="jquerytabs1-page-0">
+<div id="wb_Form1" style="position:absolute;left:18px;top:54px;width:675px;height:300px;z-index:26;">
+<form name="MeetingDetails" method="post" action="" enctype="text/plain" id="Form1">
+    <div id="wb_Text1">
+        <span>{{room_form.meeting_title.label_tag}}</span></div>
+    <div id="wb_Text2">
+        <span>{{room_form.request_date.label_tag}}</span></div>
+    <div id="wb_Text3">
+        <span>{{room_form.location_name.label_tag}}</span></div>
+    <div id="wb_Text4">
+        <span>{{room_form.room_name.label_tag}}</span></div>
+    <div id="wb_Text5">
+        <span>{{room_form.location_address.label_tag}}</span></div>
+    <div id="wb_Text6">
+        <span>{{room_form.start_date.label_tag}}</span></div>
+    <div id="wb_Text7">
+        <span>{{room_form.end_date.label_tag}}</span></div>
+    <div id="wb_Text8">
+        <span>{{room_form.start_time.label_tag}}</span></div>
+    <div id="wb_Text9">
+        <span>{{room_form.end_time.label_tag}}</span></div>
+    <div id="wb_Text10">
+        <span>{{room_form.attendance_time.label_tag}}</span></div>
+    <div id="wb_Text11">
+        <span>{{room_form.est_budget_time.label_tag}}</span></div>
+    <div id="wb_Text12">
+        <span>{{room_form.setup_style.label_tag}}</span></div>
+
+</form>
+</div>
+</div>
+<div style="height:260px;overflow:auto;padding:0;" id="jquerytabs1-page-1">
+</div>
+<div style="height:260px;overflow:auto;padding:0;" id="jquerytabs1-page-2">
+</div>
+<div style="height:260px;overflow:auto;padding:0;" id="jquerytabs1-page-3">
+</div>
+<div style="height:260px;overflow:auto;padding:0;" id="jquerytabs1-page-4">
+<textarea name="TextArea1" id="TextArea1" style="position:absolute;left:18px;top:60px;width:700px;height:218px;z-index:27;" rows="12" cols="113">6/15/2015             Further Deatils required
+7/1/2015               I will need early access to the room</textarea>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- end div for content block div -->
+</div>
+
+request page
+{% endblock %}
