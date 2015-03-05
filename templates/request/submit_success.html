@@ -12,7 +12,11 @@
 <hr id="Line1" >
 <div id="Layer2" >
     Submit successful, you will recieve an email shortly!
-    
+    <p>
+    {% for field in requested_data %}
+    <b>{{field.meeting_title}}</b>&nbsp{{field.room_name}}&nbsp{{field.start_date}}&nbsp{{field.end_date}}</br>    
+    {% endfor %}
+    </p>
 <!-- accordianContianer block div -->
 </div>
 

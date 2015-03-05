@@ -8,6 +8,17 @@
 <link href="{% static 'css/jquery.ui.all.css' %}" rel="stylesheet">
 <link href="{% static 'css/AncillaryWeb.css' %}" rel="stylesheet">
 <link href="{% static 'css/RequestPortal.css' %}" rel="stylesheet">
+
+<!-- Bootstrap -->
+<!-- Latest compiled and minified CSS 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+-->
+
+<!-- Optional theme 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+-->
+
+<!-- Jquery sources -->
 <script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
 <script src="{% static 'js/jquery.ui.core.min.js' %}"></script>
 <script src="{% static 'js/jquery.ui.widget.min.js' %}"></script>
@@ -71,33 +82,48 @@ $(document).ready(function()
  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
  <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
  <script>
-     $(function() {
-         $("#meetingForm").accordion();
+     $(document).ready(function() {
+         var customAccordion = 
+         {
+             event: 'click'.
+             animate: 'linear',
+             header: 'h3',
+             heightStyle: 'fill'
+         };
+         $("#meetingForm").accordion(customAccordion);
+         var customTab10pts = {
+             show: false,
+             event: 'click',
+             collapsible: false
+         };
+         $("#tab1").tabs(customTab10pts);
      });
  </script>
 </head>
 <body>
-<div id="container">
+    
+<div id="container" class="container">
 
 
     <!-- Header Details -->
 <div id="Layer1" style="position:absolute;text-align:center;left:0%;top:0px;width:100%;height:118px;z-index:393;">
 <div id="Layer1_Container" style="width:800px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Image4" style="position:absolute;left:52px;top:37px;width:272px;height:40px;z-index:0;">
-    <img src="{% static 'images/logo-2015-white.png' %}" id="Image4" alt=""></div>
-<div id="wb_Image6" style="position:absolute;left:672px;top:37px;width:67px;height:18px;z-index:1;">
+    <div id="wb_Image4" style="position:absolute;left:52px;top:37px;width:272px;height:40px;z-index:0;">
+    <a href="/"><img src="{% static 'images/logo-2015-white.png' %}" id="Image4" alt=""></a></div>
+    <div id="wb_Image6" style="position:absolute;left:672px;top:37px;width:67px;height:18px;z-index:1;">
     <a href="/"><img src="{% static 'images/LOGOUT.png' %}" id="Image6" alt=""></a></div>
 </div>
 </div>
 
-{% block content %}
+    {% block content %}
 
-{% endblock %}
+    {% endblock %}
 
 
-<!-- Footer details -->
-<div id="wb_Image2" style="position:absolute;left:1px;top:946px;width:802px;height:32px;z-index:392;">
-    <img src="{% static 'images/AncillaryFooter.PNG' %}" id="Image2" alt=""></div>
+    <!-- Footer details -->
+    <div id="wb_Image2" style="position:absolute;left:1px;top:946px;width:802px;height:32px;z-index:392;">
+    <img src="{% static 'images/AncillaryFooter.PNG' %}" id="Image2" alt="">
+    </div>
 
 </div>
 </body>

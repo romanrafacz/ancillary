@@ -133,12 +133,6 @@ span
 #wb_Text1 div
 {
    text-align: left;
-   position:absolute;
-   height:16px;
-   width:106px;
-   left:5px;
-   top:15px;
-   z-index:2;
 }
 #Editbox1
 {
@@ -160,12 +154,6 @@ span
 #wb_Text2 div
 {
    text-align: left;
-   position:absolute;
-   height:16px;
-   width:106px;
-   left:6px;
-   top:50px;
-   z-index:15;
 }
 #Editbox2
 {
@@ -188,13 +176,6 @@ span
 #wb_Text3 div
 {
    text-align: left;
-   position:absolute;
-   height:16px;
-   width:106px;
-   left:6px;
-   top:50px;
-   z-index:14;
-
 }
 #Editbox3
 {
@@ -217,12 +198,6 @@ span
 #wb_Text4 div
 {
    text-align: left;
-   position:absolute;
-   height:16px;
-   width:106px;
-   left:356px;
-   top:50px;
-   z-index:4;
 }
 #Editbox4
 {
@@ -1298,4 +1273,8 @@ span
 #id-2 #id-4 #id-6 #id-8 {
     display:block;
     height:250;
+}
+input{
+    height:187px;
+    height:23px;
 }

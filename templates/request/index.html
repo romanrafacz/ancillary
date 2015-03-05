@@ -1,32 +1,42 @@
 {% extends 'vm_base.html' %}
 
 {% block content %}
-
 <!-- Jquery date picker - testing here 
             <input id='datepicker' type="text" class='datepicker' name='date'>
             -->
 
-
-
 <!-- conteainer for the contenct block -->
-<hr id="Line1" >
 <div id="Layer2" >
-<button id="AdvancedButton1" type="button" name="" value="" for="submit-form">
-    <div><span><b>Submit New Request</b></span></div>
-</button>
+
+    <hr id="Line1" >
+    <a href="/request/new_request">
+    <button id="AdvancedButton1" type="button" name="" value="" for="submit-form">
+        <div><span><b>Submit New Request</b></span></div>
+    </button>
+</a>
     
 <div id="meetingForm" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+    
     <h3 id="id-1" class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" aria-controls="id-2" aria-select="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Meeting1</h3>
     <div id="id-2" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" arial-labelledby="id-1" role="tabpanel" aria-hiden="false">
-        <form action="/request/submit_request/" method="post">
+        <form name="MeetingDetails action="/request/submit_request/" method="post">
             {% csrf_token %}
-            {% for form in room_form %}
-            {{form.label}}&nbsp{{form}}
-            {% endfor %}
+            <div id="wb_Form1" ><span>{{room_form.meeting_title.label}}</span></div>{{room_form.meeting_title}}
+            <div id="wb_Form2"><span>{{room_form.request_date.label}}</span></div>{{room_form.request_date}}
+            <div id="wb_Form3"><span>{{room_form.location_name.label}}</span></div>{{room_form.location_name}}
+            <div id="wb_Form4"><span>{{room_form.room_name.label}}</span></div>{{room_form.room_name}}
+            <div id="wb_Form5"><span>{{room_form.location_address.label}}</span></div>{{room_form.location_address}}
+            <div id="wb_Form6"><span>{{room_form.start_date.label}}</span></div>{{room_form.start_date}}
+            <div id="wb_Form7"><span>{{room_form.end_date.label}}</span></div>{{room_form.end_date}}
+            <div id="wb_Form8"><span>{{room_form.start_time.label}}</span></div>{{room_form.start_time}}
+            <div id="wb_Form9"><span>{{room_form.end_time.label}}</span></div>{{room_form.end_time}}
+            <div id="wb_Form10"><span>{{room_form.attendance.label}}</span></div>{{room_form.attendance}}
+            <div id="wb_Form11"><span>{{room_form.est_budget.label}}</span></div>{{room_form.est_budget}}
+            <div id="wb_Form12"><span>{{room_form.setup_style.label}}</span></div>{{room_form.setup_style}}
             <input type="submit" id="submit-form" class="hidden" />
         </form>
     </div>
-<h3 id="id-3" class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" aria-controls="id-4" aria-select="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Meeting 2</h3>
+    <h3 id="id-3" class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" aria-controls="id-4" aria-select="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Meeting 2</h3>
     <div id="id-4" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" arial-labelledby="id-3" role="tabpanel" aria-hiden="false">
         <form action="">
             {% for form in room_form %}
@@ -34,7 +44,7 @@
             {% endfor %}
         </form>
     </div>
-<h3 id="id-5" class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" aria-controls="id-6" aria-select="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Meeting 3</h3>
+    <h3 id="id-5" class="ui-accordion-header ui-state-default ui-accordion-icons ui-accordion-header-active ui-state-active ui-corner-top" role="tab" aria-controls="id-6" aria-select="true" aria-expanded="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>Meeting 3</h3>
     <div id="id-6" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" arial-labelledby="id-5" role="tabpanel" aria-hiden="false">
         <form action="">
             {% for form in room_form %}
@@ -44,6 +54,7 @@
     </div>
 
 <!-- accordianContianer block div -->
+</div>
 </div>
 
 {% endblock %}
