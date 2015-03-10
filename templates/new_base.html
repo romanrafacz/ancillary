@@ -19,15 +19,15 @@
 -->
 
 <!-- Jquery sources -->
-<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
-<script src="{% static 'js/jquery.ui.core.min.js' %}"></script>
-<script src="{% static 'js/jquery.ui.widget.min.js' %}"></script>
-<script src="{% static 'js/jquery.ui.accordion.min.js' %}"></script>
-<script src="{% static 'js/jquery.ui.mouse.min.js' %}"></script>
-<script src="{% static 'js/jquery.ui.sortable.min.js' %}"></script>
+<script src="{% static 'jquery-ui-1.11.3.custom/jquery-1.11.1.min.js' %}"></script>
+<script src="{% static 'jquery-ui-1.11.3.custom/jquery.ui.js' %}"></script>
+<!-- jquery css and themes -->
+
+<link href="{% static 'jquery/jquery-ui.css' %}" rel="stylesheet">
+<link href="{% static 'jquery/jquery-ui.structure.css' %}" rel="stylesheet">
+<link href="{% static 'jquery/jquery-ui.theme.css' %}" rel="stylesheet">
+
          <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-                 <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
-         <script src="{% static 'js/jquery.ui.tabs.min.js' %}"></script>
          <script>
              $(function(){
                  $('#meetingForm').accordion({
@@ -78,9 +78,6 @@ $(document).ready(function()
    $("#jQueryTabs4").tabs(jQueryTabs4Opts);
 });
 </script>
- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
- <script src="//code.jquery.com/jquery-1.10.2.js"></script>
- <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
  <script>
      $(document).ready(function() {
          var customAccordion = 
@@ -121,7 +118,7 @@ $(document).ready(function()
 
 
     <!-- Footer details -->
-    <div id="wb_Image2" style="left:1px;top:946;width:802px;height:32px;z-index:392;">
+    <div id="wb_Image2" style="width:802px;height:32px;z-index:392;">
     <img src="{% static 'images/AncillaryFooter.PNG' %}" id="Image2" alt="">
     </div>
 
